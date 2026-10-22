@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980" role="img">
+<title>WF-12 Unreadable saved data</title>
+<rect width="1040" height="980" fill="#f7f7f5"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#555">WF-12 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="68" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1c1c1c">Unreadable saved data</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="64" y="128" font-family="Georgia, serif" font-size="20" fill="#111">MoneyMind</text>
+<rect x="250" y="112" width="78" height="24" rx="12" fill="#eee" stroke="#999"/>
+<text x="262" y="129" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">Estimate</text>
+<text x="64" y="168" font-family="Georgia, serif" font-size="26" fill="#111">Saved data could not be</text>
+<text x="64" y="200" font-family="Georgia, serif" font-size="26" fill="#111">read</text>
+<text x="64" y="238" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">MoneyMind found a saved record and could</text>
+<text x="64" y="258" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">not use it. It has not been erased.</text>
+<rect x="64" y="286" width="334" height="44" rx="22" fill="#fff" stroke="#222"/>
+<text x="231" y="314" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">Download the saved text</text>
+<rect x="64" y="342" width="334" height="44" rx="22" fill="#fff" stroke="#222"/>
+<text x="231" y="370" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">Erase and start over</text>
+<text x="460" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#111">Annotations</text>
+<text x="460" y="156" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">1. Corrupt storage is not silently wiped.</text>
+<text x="460" y="190" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">2. The raw text can be downloaded before erase.</text>
+<text x="460" y="224" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">3. Erase still requires confirmation.</text>
+<text x="460" y="258" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">4. A storage-blocked browser uses the same</text>
+<text x="460" y="280" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">screen.</text>
+<text x="460" y="930" font-family="Segoe UI, sans-serif" font-size="13" fill="#555">Responsive: single column under 880px. Side navigation at 880px and wider. Touch targets 44px.</text>
+</svg>

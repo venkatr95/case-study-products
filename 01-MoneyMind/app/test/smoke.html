@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MoneyMind smoke</title>
+  </head>
+  <body>
+    <pre id="log">starting</pre>
+    <iframe id="frame" title="MoneyMind app" style="width:390px;height:800px"></iframe>
+    <script type="module">
+      const log = document.querySelector("#log");
+      const lines = [];
+      const frame = document.querySelector("#frame");
+      function note(ok, message) {
+        lines.push(`${ok ? "PASS" : "FAIL"} ${message}`);
+        log.textContent = lines.join("\n");
+      }
+      function waitFor(predicate, label) {
+        return new Promise((resolve, reject) => {
+          const start = Date.now();
+          const timer = setInterval(() => {
+            let doc;
+            try {
+              doc = frame.contentDocument;
+              if (predicate(doc)) {
+                clearInterval(timer);
+                resolve(doc);
+                return;
+              }
+            } catch (error) {
+              clearInterval(timer);
+              reject(error);
+              return;
+            }
+            if (Date.now() - start > 5000) {
+              clearInterval(timer);
+              reject(new Error(`${label}\n${doc?.body?.innerText?.slice(0, 700) || ""}`));
+            }
+          }, 40);
+        });
+      }
+      function fits(doc, label) {
+        const width = doc.documentElement.scrollWidth;
+        const frameWidth = doc.documentElement.clientWidth;
+        note(width <= frameWidth + 1, `${label} fits the 390px frame (${width} vs ${frameWidth})`);
+      }
+      function clickAction(doc, action) {
+        const button = doc.querySelector(`[data-action="${action}"]`);
+        if (!button) throw new Error(`Missing action ${action}`);
+        button.click();
+      }
+      try {
+        localStorage.removeItem("moneymind.v1");
+        frame.src = "/index.html#/welcome";
+        let doc = await waitFor((page) => page.body?.innerText?.includes("Estimates, not promises"), "welcome");
+        fits(doc, "onboarding");
+        note(doc.body.innerText.includes("Nothing connects to a bank"), "onboarding states there is no bank connection");
+        note(doc.body.innerText.includes("Do not enter bank passwords"), "onboarding warns about this prototype");
+        clickAction(doc, "use-sample");
+        doc = await waitFor((page) => page.body?.innerText?.includes("Sample data"), "sample home");
+        note(doc.body.innerText.includes("Safe to spend"), "home shows safe to spend");
+        note(doc.body.innerText.includes("Estimate only"), "home shows the estimate disclaimer");
+        note(doc.body.innerText.includes("Lowest estimate"), "home shows the low point");
+        fits(doc, "home");
+        frame.src = "/index.html#/explain";
+        doc = await waitFor((page) => page.body?.innerText?.includes("Assumptions"), "explain");
+        note(doc.body.innerText.includes("not a guarantee"), "explanation says the result is not a guarantee");
+        note(doc.body.innerText.includes("Set-aside you chose"), "explanation shows the set-aside step");
+        fits(doc, "explanation");
+        frame.src = "/index.html#/timeline";
+        doc = await waitFor((page) => page.body?.innerText?.includes("30-day timeline"), "timeline");
+        note(Boolean(doc.querySelector("table")), "timeline includes the data table");
+        note(Boolean(doc.querySelector("svg.spark")), "timeline includes the chart");
+        fits(doc, "timeline");
+        frame.src = "/index.html#/what-if";
+        doc = await waitFor((page) => page.querySelector("#scenario-amount"), "what-if");
+        const amount = doc.querySelector("#scenario-amount");
+        amount.value = "150.00";
+        amount.dispatchEvent(new Event("input", { bubbles: true }));
+        doc = await waitFor((page) => page.body.innerText.includes("Scenario · not saved"), "scenario preview");
+        note(doc.body.innerText.includes("Saved estimate"), "what-if keeps the saved estimate beside the scenario");
+        frame.src = "/index.html#/items/new";
+        doc = await waitFor((page) => page.querySelector("form[data-form=item]"), "add item");
+        doc.querySelector("form[data-form=item]").requestSubmit();
+        doc = await waitFor((page) => page.body.innerText.includes("Add a short name"), "validation");
+        note(true, "empty item is rejected with an actionable message");
+        const name = doc.querySelector("#name");
+        const itemAmount = doc.querySelector("#amount");
+        name.value = "Smoke dinner";
+        itemAmount.value = "15.00";
+        name.dispatchEvent(new Event("input", { bubbles: true }));
+        itemAmount.dispatchEvent(new Event("input", { bubbles: true }));
+        doc.querySelector("form[data-form=item]").requestSubmit();
+        doc = await waitFor((page) => page.body.innerText.includes("Smoke dinner saved"), "save item");
+        note(doc.body.innerText.includes("In this 30-day window"), "saved item opens its detail");
+        frame.src = "/index.html#/reminders";
+        doc = await waitFor((page) => page.body.innerText.includes("Low-balance alert"), "reminders");
+        note(doc.body.innerText.includes("does not schedule background alerts") || doc.body.innerText.includes("after the page is closed") || doc.body.innerText.includes("while this page is open"), "reminder limitations are stated");
+        frame.src = "/index.html#/settings";
+        doc = await waitFor((page) => page.body.innerText.includes("Delete all data"), "settings");
+        note(doc.body.innerText.includes("Download my entries"), "export is available");
+        frame.src = "/index.html?check=stale#/balance";
+        doc = await waitFor((page) => page.querySelector("#asOf"), "balance form");
+        const asOf = doc.querySelector("#asOf");
+        asOf.value = "2020-01-01";
+        doc.querySelector("form[data-form=balance]").requestSubmit();
+        doc = await waitFor((page) => page.body.innerText.includes("days ago"), "stale");
+        note(doc.body.innerText.includes("Update the balance"), "stale balance asks for an update");
+        localStorage.removeItem("moneymind.v1");
+        frame.src = "/index.html?sample=1#/explain";
+        doc = await waitFor((page) => page.body?.innerText?.includes("Set-aside you chose"), "sample deep link");
+        note(doc.body.innerText.includes("Sample data"), "sample link opens the requested screen instead of forcing Home");
+        fits(doc, "sample explanation");
+        note(!lines.some((line) => line.startsWith("FAIL")), "all smoke checks passed");
+      } catch (error) {
+        note(false, error.stack || error.message);
+      }
+    </script>
+  </body>
+</html>

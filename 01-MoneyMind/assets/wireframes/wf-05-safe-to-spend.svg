@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980" role="img">
+<title>WF-05 Safe-to-spend explanation</title>
+<rect width="1040" height="980" fill="#f7f7f5"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#555">WF-05 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="68" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1c1c1c">Safe-to-spend explanation</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="64" y="128" font-family="Georgia, serif" font-size="20" fill="#111">MoneyMind</text>
+<rect x="250" y="112" width="78" height="24" rx="12" fill="#eee" stroke="#999"/>
+<text x="262" y="129" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">Estimate</text>
+<text x="64" y="168" font-family="Georgia, serif" font-size="26" fill="#111">Safe to spend</text>
+<text x="64" y="206" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">How much you could spend today without</text>
+<text x="64" y="226" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">going under the set-aside at the lowest</text>
+<text x="64" y="246" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">point.</text>
+<rect x="64" y="274" width="334" height="148" rx="10" fill="#fafafa" stroke="#bbb"/>
+<text x="76" y="298" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">Starting balance · $1,840.00</text>
+<text x="76" y="320" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">Income counted · + $0.00</text>
+<text x="76" y="342" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">Expenses counted · − $1,650.00</text>
+<text x="76" y="364" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">Lowest estimate · $190.00</text>
+<text x="76" y="386" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">Set-aside · − $100.00</text>
+<text x="76" y="408" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">Safe to spend · $90.00</text>
+<text x="64" y="434" font-family="Georgia, serif" font-size="26" fill="#111">After the low point</text>
+<text x="64" y="472" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">Payday arrives later, so it is not part of</text>
+<text x="64" y="492" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">safe to spend. It remains on the timeline.</text>
+<text x="64" y="520" font-family="Segoe UI, sans-serif" font-size="14" fill="#444">Assumptions are listed in full. This is</text>
+<text x="64" y="540" font-family="Segoe UI, sans-serif" font-size="14" fill="#444">not advice.</text>
+<rect x="36" y="860" width="390" height="76" fill="#fff" stroke="#222"/>
+<text x="78" y="904" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">Home</text>
+<text x="170" y="904" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">Timeline</text>
+<text x="262" y="904" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">What-if</text>
+<text x="354" y="904" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">Plan</text>
+<text x="460" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#111">Annotations</text>
+<text x="460" y="156" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">1. Every term in the formula is visible and ties</text>
+<text x="460" y="178" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">back to entered items.</text>
+<text x="460" y="212" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">2. Later income is explained instead of being</text>
+<text x="460" y="234" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">hidden.</text>
+<text x="460" y="268" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">3. A negative result is shown as a shortfall,</text>
+<text x="460" y="290" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">not clamped without comment.</text>
+<text x="460" y="324" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">4. Covers FR-04.</text>
+<text x="460" y="930" font-family="Segoe UI, sans-serif" font-size="13" fill="#555">Responsive: single column under 880px. Side navigation at 880px and wider. Touch targets 44px.</text>
+</svg>

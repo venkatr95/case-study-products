@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="280" viewBox="0 0 920 280" role="img">
+  <title>Safe to spend is the lowest 30-day estimate minus the set-aside</title>
+  <rect width="920" height="280" fill="#F3EFE6"/>
+  <text x="32" y="42" font-family="Georgia, serif" font-size="24" fill="#17202B">How safe to spend is defined</text>
+  <rect x="32" y="70" width="200" height="88" rx="12" fill="#FBFAF6" stroke="#D5CBBA"/>
+  <text x="48" y="104" font-family="Segoe UI, sans-serif" font-size="14" fill="#17202B">Starting balance</text>
+  <text x="48" y="130" font-family="Segoe UI, sans-serif" font-size="14" fill="#3E4C5E">plus and minus entered items</text>
+  <rect x="268" y="70" width="200" height="88" rx="12" fill="#FBFAF6" stroke="#17202B"/>
+  <text x="284" y="104" font-family="Segoe UI, sans-serif" font-size="14" fill="#17202B">Lowest estimate</text>
+  <text x="284" y="130" font-family="Segoe UI, sans-serif" font-size="14" fill="#3E4C5E">earliest day in 30</text>
+  <rect x="504" y="70" width="180" height="88" rx="12" fill="#F3E6C8" stroke="#D5CBBA"/>
+  <text x="520" y="104" font-family="Segoe UI, sans-serif" font-size="14" fill="#17202B">Set-aside</text>
+  <text x="520" y="130" font-family="Segoe UI, sans-serif" font-size="14" fill="#6A4B16">your choice, or zero</text>
+  <rect x="720" y="70" width="168" height="88" rx="12" fill="#0E4F4C"/>
+  <text x="736" y="104" font-family="Segoe UI, sans-serif" font-size="14" fill="#FBFAF6">Safe to spend</text>
+  <text x="736" y="130" font-family="Segoe UI, sans-serif" font-size="13" fill="#E4F0EE">an estimate</text>
+  <text x="248" y="118" font-size="20" fill="#17202B">→</text>
+  <text x="484" y="118" font-size="20" fill="#17202B">−</text>
+  <text x="698" y="118" font-size="20" fill="#17202B">=</text>
+  <text x="32" y="200" font-family="Segoe UI, sans-serif" font-size="16" fill="#17202B">Bills on a day are counted before income that same day.</text>
+  <text x="32" y="228" font-family="Segoe UI, sans-serif" font-size="16" fill="#17202B">Income after the low point stays on the timeline and does not raise the number.</text>
+  <text x="32" y="256" font-family="Segoe UI, sans-serif" font-size="16" fill="#3E4C5E">Not a guarantee, a bank balance, or financial advice.</text>
+</svg>

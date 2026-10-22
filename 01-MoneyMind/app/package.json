@@ -1,0 +1,16 @@
+{
+  "name": "moneymind-prototype",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MoneyMind portfolio prototype. Local-only cash estimates. Not a financial product.",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "tsc -p tsconfig.json --pretty false && node --test test/forecast.test.ts",
+    "start": "npm run build && node server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}

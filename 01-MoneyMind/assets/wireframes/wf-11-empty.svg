@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980" role="img">
+<title>WF-11 Empty plan</title>
+<rect width="1040" height="980" fill="#f7f7f5"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#555">WF-11 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="68" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1c1c1c">Empty plan</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="64" y="128" font-family="Georgia, serif" font-size="20" fill="#111">MoneyMind</text>
+<rect x="250" y="112" width="78" height="24" rx="12" fill="#eee" stroke="#999"/>
+<text x="262" y="129" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">Estimate</text>
+<text x="64" y="168" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#333">Safe to spend</text>
+<text x="64" y="216" font-family="Georgia, serif" font-size="42" fill="#111">$1,740.00</text>
+<text x="64" y="260" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">No bills are entered. This is the balance</text>
+<text x="64" y="280" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">minus the set-aside, not a forecast of</text>
+<text x="64" y="300" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">real spending.</text>
+<rect x="64" y="328" width="334" height="54" rx="8" fill="#f3f3f3" stroke="#bbb"/>
+<text x="76" y="348" font-family="Segoe UI, sans-serif" font-size="13" fill="#222">No income is entered in this 30-day</text>
+<text x="76" y="366" font-family="Segoe UI, sans-serif" font-size="13" fill="#222">window.</text>
+<text x="64" y="394" font-family="Georgia, serif" font-size="26" fill="#111">Nothing planned yet</text>
+<text x="64" y="432" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">Add the next payday and the bills due</text>
+<text x="64" y="452" font-family="Segoe UI, sans-serif" font-size="14" fill="#222">before it.</text>
+<rect x="64" y="480" width="334" height="44" rx="22" fill="#222" stroke="#222"/>
+<text x="231" y="508" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#fff">Add an item</text>
+<rect x="64" y="536" width="334" height="44" rx="22" fill="#fff" stroke="#222"/>
+<text x="231" y="564" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">Explore with sample data</text>
+<rect x="36" y="860" width="390" height="76" fill="#fff" stroke="#222"/>
+<text x="78" y="904" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">Home</text>
+<text x="170" y="904" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">Timeline</text>
+<text x="262" y="904" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">What-if</text>
+<text x="354" y="904" font-family="Segoe UI, sans-serif" font-size="12" fill="#333">Plan</text>
+<text x="460" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#111">Annotations</text>
+<text x="460" y="156" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">1. Empty is a flat estimate, not a blank screen</text>
+<text x="460" y="178" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">or a fake insight.</text>
+<text x="460" y="212" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">2. Sample data asks before it replaces a saved</text>
+<text x="460" y="234" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">balance.</text>
+<text x="460" y="268" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">3. The missing-input notes are specific.</text>
+<text x="460" y="930" font-family="Segoe UI, sans-serif" font-size="13" fill="#555">Responsive: single column under 880px. Side navigation at 880px and wider. Touch targets 44px.</text>
+</svg>
