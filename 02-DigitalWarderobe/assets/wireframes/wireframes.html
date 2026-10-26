@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Rewear low-fidelity wireframes</title>
+  <style>
+    :root { color: #1c1916; background: #fff; font-family: "Segoe UI", sans-serif; }
+    body { margin: 0; padding: 32px; }
+    header.page { max-width: 1100px; margin-bottom: 28px; }
+    h1 { font-size: 32px; margin: 0 0 8px; }
+    h2 { margin: 0 0 8px; font-size: 18px; }
+    p { margin: 0 0 8px; line-height: 1.4; }
+    .board { display: flex; gap: 28px; align-items: flex-start; margin: 0 0 36px; page-break-inside: avoid; }
+    .phone {
+      width: 390px; height: 844px; border: 2px solid #1c1916; background: #f4f4f4;
+      display: flex; flex-direction: column; flex: 0 0 auto; overflow: hidden;
+    }
+    .chrome, .tabs { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; background: #fff; border-bottom: 1px solid #cfcfcf; font-size: 13px; }
+    .tabs { border-bottom: 0; border-top: 1px solid #cfcfcf; margin-top: auto; }
+    .tabs span { min-height: 36px; display: grid; place-items: center; font-weight: 650; }
+    .screen { padding: 14px; display: flex; flex-direction: column; gap: 8px; overflow: hidden; }
+    .title { font-size: 26px; line-height: 1.15; margin: 4px 0; }
+    .btn, .btn2, .chip, .field, .card, .row, .banner, .alert, .note {
+      border: 1px solid #1c1916; background: #fff; border-radius: 10px; padding: 8px 10px; font-size: 14px;
+    }
+    .btn { background: #1c1916; color: #fff; text-align: center; font-weight: 650; }
+    .btn2, .chip { text-align: center; }
+    .rowline { display: flex; gap: 8px; }
+    .rowline > * { flex: 1; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .card .ph { height: 72px; background: #e6e6e6; border: 1px dashed #6d6d6d; display: grid; place-items: center; margin-bottom: 6px; font-size: 12px; }
+    .meta { color: #333; font-size: 12px; }
+    .notes { width: 360px; font-size: 14px; }
+    .notes ol { margin: 8px 0 0; padding-left: 18px; }
+    .kicker { letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px; color: #333; }
+    .sheet { border: 2px solid #1c1916; background: #fff; padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+  </style>
+</head>
+<body>
+  <header class="page">
+    <p class="kicker">Rewear · low fidelity · 390 × 844 · grayscale</p>
+    <h1>Wireframes for a private wardrobe</h1>
+    <p>Annotated frames for the core path: start, find or add an item, save an outfit, read a suggestion, pack a trip. Copy matches the prototype. These are not photographs of people and not a Figma file.</p>
+  </header>
+
+  <article class="board" id="w01">
+    <div class="phone" aria-label="Welcome wireframe">
+      <div class="chrome"><strong>Rewear</strong><span>Portfolio prototype</span></div>
+      <div class="screen">
+        <h2 class="title">Create more outfits from clothes you already own.</h2>
+        <p>Catalogue what you have, then build an outfit for an occasion or a trip. Photos are optional. Rewear does not comment on your body or tell you to buy more.</p>
+        <div class="btn">Look through a sample wardrobe</div>
+        <div class="btn2">Start with an empty wardrobe</div>
+        <p class="meta">How photos and data are stored</p>
+        <p class="meta">Photos stay in this browser. You can delete them at any time. Nothing is uploaded.</p>
+      </div>
+    </div>
+    <div class="notes">
+      <p class="kicker">W-01 Welcome</p>
+      <h2>One decision, then the wardrobe.</h2>
+      <ol>
+        <li>The title is the UVP, not a brand essay.</li>
+        <li>Sample data is a primary path so the outfit job is reachable.</li>
+        <li>Empty start is equal in size, secondary in weight.</li>
+        <li>Storage is explained before a photo exists.</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="board" id="w02">
+    <div class="phone">
+      <div class="chrome"><strong>Rewear</strong><span>On this device</span></div>
+      <div class="screen">
+        <h2 class="title">Wardrobe</h2>
+        <div class="banner">Sample wardrobe. These 12 items are illustrative. Dismiss</div>
+        <div class="field">Search name, note, or color</div>
+        <div class="rowline"><div class="chip">Top</div><div class="chip">Bottom</div><div class="btn2">Filters</div><div class="btn">Add item</div></div>
+        <p class="meta">12 items of 12 active</p>
+        <div class="grid">
+          <div class="card"><div class="ph">Top</div><strong>Ivory oxford shirt</strong><div class="meta">Top · White · All season</div></div>
+          <div class="card"><div class="ph">Top</div><strong>Navy merino knit</strong><div class="meta">Top · Navy · Autumn</div></div>
+          <div class="card"><div class="ph">Bottom</div><strong>Charcoal wool trousers</strong><div class="meta">Bottom · Grey · Winter</div></div>
+          <div class="card"><div class="ph">Shoes</div><strong>Brown loafers</strong><div class="meta">Shoes · Brown · All season</div></div>
+        </div>
+      </div>
+      <div class="tabs"><span>Wardrobe</span><span>Outfits</span><span>Trips</span><span>You</span></div>
+    </div>
+    <div class="notes">
+      <p class="kicker">W-02 Wardrobe</p>
+      <h2>A grid with words on every card.</h2>
+      <ol>
+        <li>Banner tells the truth about sample clothes.</li>
+        <li>Category chips stay on the page. Color and season open in Filters.</li>
+        <li>Add item is next to search, not hidden in a menu.</li>
+        <li>Dashed blocks stand in for photos. The name still identifies the item.</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="board" id="w03">
+    <div class="phone">
+      <div class="chrome"><strong>Rewear</strong><span>On this device</span></div>
+      <div class="screen">
+        <h2 class="title">Wardrobe</h2>
+        <div class="field">Search name, note, or color</div>
+        <p class="meta">0 items of 0 active</p>
+        <div class="note">
+          <strong>Your wardrobe is empty.</strong>
+          <p>Add an item you already wear, or look through the sample wardrobe.</p>
+          <div class="btn">Add item</div>
+          <div class="btn2">Look through a sample wardrobe</div>
+        </div>
+      </div>
+      <div class="tabs"><span>Wardrobe</span><span>Outfits</span><span>Trips</span><span>You</span></div>
+    </div>
+    <div class="notes">
+      <p class="kicker">W-03 Empty</p>
+      <h2>The empty state names both ways in.</h2>
+      <ol>
+        <li>No illustration of a sad closet.</li>
+        <li>Add is first. Sample is still available.</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="board" id="w05">
+    <div class="phone">
+      <div class="chrome"><strong>Rewear</strong><span>On this device</span></div>
+      <div class="screen">
+        <h2 class="title">Add item</h2>
+        <p>A name, category, color, season, and how dressy it is are enough to save. A photo is optional, and it is not scanned.</p>
+        <div class="field">Name</div>
+        <div class="field">Category · Top</div>
+        <div class="field">Color · Navy</div>
+        <div class="field">Season · All season</div>
+        <div class="field">Dressiness · Smart</div>
+        <p class="meta">Dressiness is only used to match an occasion. It is not a rule about you.</p>
+        <div class="field">Price, optional</div>
+        <div class="note">Photo, optional. No photo yet. Choose a photo.</div>
+        <div class="btn">Save item</div>
+        <div class="btn2">Cancel</div>
+      </div>
+      <div class="tabs"><span>Wardrobe</span><span>Outfits</span><span>Trips</span><span>You</span></div>
+    </div>
+    <div class="notes">
+      <p class="kicker">W-05 Add item</p>
+      <h2>Manual fields are the form, not a backup link.</h2>
+      <ol>
+        <li>Required tags are the ones suggestions use.</li>
+        <li>The dressiness helper blocks a moralizing reading.</li>
+        <li>Price can stay blank. Cost per wear waits.</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="board" id="w06">
+    <div class="phone">
+      <div class="chrome"><strong>Rewear</strong><span>On this device</span></div>
+      <div class="screen">
+        <h2 class="title">Add item</h2>
+        <div class="alert">The photo could not be saved. You can try again, or save the item without a photo.</div>
+        <div class="field">Name · Linen shirt</div>
+        <div class="note">Photo, optional. Choose a photo. Save still works.</div>
+        <div class="btn">Save item</div>
+        <div class="btn2">Cancel</div>
+      </div>
+      <div class="tabs"><span>Wardrobe</span><span>Outfits</span><span>Trips</span><span>You</span></div>
+    </div>
+    <div class="notes">
+      <p class="kicker">W-06 Photo failure</p>
+      <h2>Same screen. Save stays put.</h2>
+      <ol>
+        <li>Retry is choosing a photo again.</li>
+        <li>There is no dead end and no separate manual mode.</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="board" id="w08">
+    <div class="phone">
+      <div class="chrome"><strong>Rewear</strong><span>On this device</span></div>
+      <div class="screen">
+        <h2 class="title">New outfit</h2>
+        <p>Choose an occasion and a weather preference, then select items you own.</p>
+        <div class="field">Outfit name, optional</div>
+        <div class="rowline"><div class="chip">Work</div><div class="chip">Cold</div></div>
+        <p class="meta">Weather is a preference you choose. Rewear does not use your location.</p>
+        <div class="note"><strong>Selected</strong><p>Navy merino knit · Remove</p><p>Charcoal wool trousers · Remove</p><p>Brown loafers · Remove</p></div>
+        <div class="btn">Save outfit</div>
+      </div>
+      <div class="tabs"><span>Wardrobe</span><span>Outfits</span><span>Trips</span><span>You</span></div>
+    </div>
+    <div class="notes">
+      <p class="kicker">W-08 Outfit builder</p>
+      <h2>Occasion is stored, not implied.</h2>
+      <ol>
+        <li>Two decisions, then a selection from owned items.</li>
+        <li>The builder does not hide clothes that break a suggestion rule.</li>
+        <li>Blank name saves as “Work · Cold”.</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="board" id="w09">
+    <div class="phone">
+      <div class="chrome"><strong>Rewear</strong><span>On this device</span></div>
+      <div class="screen">
+        <h2 class="title">Suggestions</h2>
+        <p>Suggestions use the tags you set. Each one explains the match.</p>
+        <div class="rowline"><div class="chip">Work</div><div class="chip">Cold</div></div>
+        <div class="sheet">
+          <strong>Navy merino knit, Charcoal wool trousers, Navy overcoat, Brown loafers</strong>
+          <p class="meta">Why this was suggested</p>
+          <p>Each piece is tagged smart or formal, which fits work.</p>
+          <p>Weather preference is cold, so seasons are limited.</p>
+          <p>Includes Navy overcoat as an outer layer.</p>
+          <div class="btn">Save outfit</div>
+          <div class="btn2">Dismiss</div>
+        </div>
+      </div>
+      <div class="tabs"><span>Wardrobe</span><span>Outfits</span><span>Trips</span><span>You</span></div>
+    </div>
+    <div class="notes">
+      <p class="kicker">W-09 Suggestions</p>
+      <h2>The reason is part of the card.</h2>
+      <ol>
+        <li>Save and dismiss are both full controls.</li>
+        <li>Factors name tags, not taste.</li>
+        <li>A missing layer is said out loud if no coat matches.</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="board" id="w13">
+    <div class="phone">
+      <div class="chrome"><strong>Rewear</strong><span>On this device</span></div>
+      <div class="screen">
+        <h2 class="title">Lisbon</h2>
+        <p>4 nights · 0 of 5 packed</p>
+        <p>Shared pieces are listed once.</p>
+        <div class="note"><strong>Shoes</strong><p>☐ Brown loafers</p><p class="meta">In 2 outfits: Office day and Dinner</p></div>
+        <div class="note"><strong>Top</strong><p>☐ Navy merino knit</p><p class="meta">In Office day</p></div>
+        <div class="btn2">Edit trip</div>
+      </div>
+      <div class="tabs"><span>Wardrobe</span><span>Outfits</span><span>Trips</span><span>You</span></div>
+    </div>
+    <div class="notes">
+      <p class="kicker">W-13 Packing list</p>
+      <h2>Duplicates are visible by being absent.</h2>
+      <ol>
+        <li>The shared shoe is one row and names both outfits.</li>
+        <li>Nights do not multiply the clothes.</li>
+        <li>Checkboxes are the packing act.</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="board" id="w15">
+    <div class="phone">
+      <div class="chrome"><strong>Rewear</strong><span>On this device</span></div>
+      <div class="screen">
+        <h2 class="title">Item</h2>
+        <p class="meta">Navy merino knit is behind the dialog.</p>
+        <div class="sheet">
+          <h2>Delete this item?</h2>
+          <p>Navy merino knit. It is in 1 outfit: Office day. Those outfits will update.</p>
+          <div class="btn">Delete item</div>
+          <div class="btn2">Cancel</div>
+        </div>
+      </div>
+    </div>
+    <div class="notes">
+      <p class="kicker">W-15 Delete confirm</p>
+      <h2>The dialog says which outfits change.</h2>
+      <ol>
+        <li>Cancel is always present.</li>
+        <li>Archive is the other verb, on the detail screen, not in this dialog.</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="board" id="w16">
+    <div class="phone">
+      <div class="banner">You're offline. Your wardrobe is saved on this device and still works.</div>
+      <div class="chrome"><strong>Rewear</strong><span>On this device</span></div>
+      <div class="screen">
+        <h2 class="title">Wardrobe</h2>
+        <p>The grid stays usable. Offline is not a dead end.</p>
+        <div class="card"><strong>Ivory oxford shirt</strong><div class="meta">Top · White · All season</div></div>
+      </div>
+      <div class="tabs"><span>Wardrobe</span><span>Outfits</span><span>Trips</span><span>You</span></div>
+    </div>
+    <div class="notes">
+      <p class="kicker">W-16 Offline</p>
+      <h2>A banner, because the data is already local.</h2>
+      <ol>
+        <li>No retry spinner pretending there is a server.</li>
+        <li>Add, edit, and pack still work in the prototype.</li>
+      </ol>
+    </div>
+  </article>
+</body>
+</html>

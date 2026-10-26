@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" role="img" aria-labelledby="title desc">
+  <title id="title">Rewear packing consolidation</title>
+  <desc id="desc">Two saved outfits that share loafers become one packing line that names both outfits.</desc>
+  <rect width="920" height="420" fill="#F4EFE8"/>
+  <text x="32" y="40" font-family="Segoe UI, sans-serif" font-size="22" fill="#1C1916">Packing — shared items once</text>
+  <text x="32" y="64" font-family="Segoe UI, sans-serif" font-size="13" fill="#5C534A">FR-06. Illustrative example using the sample wardrobe, not a user result.</text>
+  <g font-family="Segoe UI, sans-serif" font-size="14" fill="#1C1916">
+    <rect x="40" y="100" width="250" height="120" rx="8" fill="#FFFCF8" stroke="#1C1916"/>
+    <text x="165" y="128" text-anchor="middle">Outfit A</text>
+    <text x="165" y="156" text-anchor="middle">Navy merino knit</text>
+    <text x="165" y="178" text-anchor="middle">Charcoal wool trousers</text>
+    <text x="165" y="200" text-anchor="middle">Brown loafers</text>
+    <rect x="40" y="250" width="250" height="100" rx="8" fill="#FFFCF8" stroke="#1C1916"/>
+    <text x="165" y="278" text-anchor="middle">Outfit B</text>
+    <text x="165" y="306" text-anchor="middle">Black slip dress</text>
+    <text x="165" y="328" text-anchor="middle">Brown loafers</text>
+    <rect x="520" y="150" width="360" height="180" rx="8" fill="#234237"/>
+    <text x="700" y="186" text-anchor="middle" fill="#F4EFE8">Packing list</text>
+    <text x="700" y="220" text-anchor="middle" fill="#F4EFE8">Navy merino knit — In Outfit A</text>
+    <text x="700" y="246" text-anchor="middle" fill="#F4EFE8">Charcoal wool trousers — In Outfit A</text>
+    <text x="700" y="272" text-anchor="middle" fill="#F4EFE8">Black slip dress — In Outfit B</text>
+    <text x="700" y="298" text-anchor="middle" fill="#F4EFE8">Brown loafers — In 2 outfits</text>
+  </g>
+  <path d="M290 200 H400 V240 H520" fill="none" stroke="#1C1916" stroke-width="1.5"/>
+  <text x="400" y="120" font-family="Segoe UI, sans-serif" font-size="13" fill="#5C534A">One line per item.</text>
+</svg>

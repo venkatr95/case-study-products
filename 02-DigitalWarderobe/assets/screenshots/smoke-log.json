@@ -1,0 +1,62 @@
+{
+  "at": "2026-10-22T21:38:37.253Z",
+  "url": "http://127.0.0.1:4174/",
+  "failed": 0,
+  "log": [
+    {
+      "step": "welcome",
+      "ok": true,
+      "detail": "Create more outfits from clothes you already own."
+    },
+    {
+      "step": "sample wardrobe",
+      "ok": true,
+      "detail": "title=Wardrobe"
+    },
+    {
+      "step": "search navy",
+      "ok": true,
+      "detail": "live=2 items match."
+    },
+    {
+      "step": "add item without photo",
+      "ok": true,
+      "detail": "title=Grey scarf"
+    },
+    {
+      "step": "suggestions explain the match",
+      "ok": true,
+      "detail": "Suggestions"
+    },
+    {
+      "step": "save suggestion",
+      "ok": true,
+      "detail": "Work · Cold"
+    },
+    {
+      "step": "second suggestion",
+      "ok": true,
+      "detail": "Work · Cold"
+    },
+    {
+      "step": "packing list",
+      "ok": true,
+      "detail": "outfits checked=2 shared line=true title=Lisbon"
+    },
+    {
+      "step": "photo failure keeps the form",
+      "ok": true,
+      "detail": "error copy visible"
+    },
+    {
+      "step": "offline banner",
+      "ok": true,
+      "detail": "banner"
+    },
+    {
+      "step": "settings privacy copy",
+      "ok": true,
+      "detail": "settings"
+    }
+  ]
+}

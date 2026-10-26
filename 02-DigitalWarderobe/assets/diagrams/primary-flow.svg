@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="640" viewBox="0 0 920 640" role="img" aria-labelledby="title desc">
+  <title id="title">Rewear primary flow</title>
+  <desc id="desc">From opening Rewear, through a sample or empty wardrobe, to a saved outfit with occasion and weather preference.</desc>
+  <rect width="920" height="640" fill="#F4EFE8"/>
+  <text x="32" y="40" font-family="Segoe UI, sans-serif" font-size="22" fill="#1C1916">Primary flow — saved outfit</text>
+  <text x="32" y="64" font-family="Segoe UI, sans-serif" font-size="13" fill="#5C534A">Static drawing of the flow in 03-information-architecture/user-flows.md. Not a measured journey.</text>
+  <g font-family="Segoe UI, sans-serif" font-size="14" fill="#1C1916">
+    <rect x="360" y="88" width="200" height="44" rx="8" fill="#FFFCF8" stroke="#1C1916"/>
+    <text x="460" y="115" text-anchor="middle">Open Rewear</text>
+    <rect x="330" y="168" width="260" height="44" rx="8" fill="#FFFCF8" stroke="#1C1916"/>
+    <text x="460" y="195" text-anchor="middle">Sample wardrobe or empty wardrobe</text>
+    <rect x="80" y="260" width="280" height="56" rx="8" fill="#FFFCF8" stroke="#1C1916"/>
+    <text x="220" y="283" text-anchor="middle">Sample: 12 labeled items</text>
+    <text x="220" y="302" text-anchor="middle">Not counted as items the person added</text>
+    <rect x="560" y="260" width="280" height="56" rx="8" fill="#FFFCF8" stroke="#1C1916"/>
+    <text x="700" y="283" text-anchor="middle">Empty: add an item</text>
+    <text x="700" y="302" text-anchor="middle">Photo optional. Failure stays on the form.</text>
+    <rect x="250" y="368" width="420" height="44" rx="8" fill="#FFFCF8" stroke="#1C1916"/>
+    <text x="460" y="395" text-anchor="middle">Wardrobe — search, category, filters</text>
+    <rect x="220" y="448" width="480" height="44" rx="8" fill="#FFFCF8" stroke="#1C1916"/>
+    <text x="460" y="475" text-anchor="middle">New outfit — occasion and weather preference</text>
+    <rect x="170" y="528" width="580" height="56" rx="8" fill="#234237"/>
+    <text x="460" y="551" text-anchor="middle" fill="#F4EFE8">Save outfit — two items, or one dress</text>
+    <text x="460" y="570" text-anchor="middle" fill="#F4EFE8">Detail shows occasion, weather, and current item names</text>
+  </g>
+  <g stroke="#1C1916" fill="none" stroke-width="1.5">
+    <path d="M460 132 V168"/>
+    <path d="M400 212 L220 260"/>
+    <path d="M520 212 L700 260"/>
+    <path d="M220 316 L400 368"/>
+    <path d="M700 316 L520 368"/>
+    <path d="M460 412 V448"/>
+    <path d="M460 492 V528"/>
+  </g>
+</svg>
