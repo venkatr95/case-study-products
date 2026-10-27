@@ -5,7 +5,7 @@
 **UVP:** Create more outfits from clothes you already own.  
 **Status:** Portfolio concept. Documentation, grayscale wireframes, and a local TypeScript prototype are implemented. Interviews and usability tests are planned and have not been run. No Figma file exists.
 
-This is not a commercial app. The prototype stores data in this browser only. It does not create an account, upload photos, read location, or scan pictures.
+This is not a commercial app. The prototype stores data in this browser only. It does not create an account, read location, or scan pictures. Sample clothes are small catalog photos. Upload on an item, or on New outfit, replaces one of those photos. The file stays in this browser.
 
 ## How to review it
 

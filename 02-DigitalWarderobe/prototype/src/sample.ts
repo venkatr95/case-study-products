@@ -2,6 +2,32 @@ import type { Item } from "./types";
 
 const created = "2026-10-01T09:00:00.000Z";
 
+/** Small catalog photos in public/sample. A user upload (data URL) replaces one. */
+const SAMPLE_PHOTOS: Record<string, string> = {
+  "sample-oxford": "./sample/oxford.jpg",
+  "sample-merino": "./sample/merino.jpg",
+  "sample-tee": "./sample/tee.jpg",
+  "sample-jacket": "./sample/jacket.jpg",
+  "sample-trousers": "./sample/trousers.jpg",
+  "sample-jeans": "./sample/jeans.jpg",
+  "sample-chinos": "./sample/chinos.jpg",
+  "sample-dress": "./sample/dress.jpg",
+  "sample-sneakers": "./sample/sneakers.jpg",
+  "sample-loafers": "./sample/loafers.jpg",
+  "sample-coat": "./sample/coat.jpg",
+  "sample-scarf": "./sample/scarf.jpg",
+};
+
+export function catalogPhoto(id: string): string | null {
+  return SAMPLE_PHOTOS[id] ?? null;
+}
+
+/** User uploads win. Sample items otherwise show their catalog photo. */
+export function displayPhoto(item: { id: string; photoDataUrl: string | null }): string | null {
+  if (item.photoDataUrl && item.photoDataUrl.startsWith("data:")) return item.photoDataUrl;
+  return catalogPhoto(item.id) ?? item.photoDataUrl;
+}
+
 /**
  * Illustrative wardrobe used only so a reviewer can reach outfits
  * without photographing clothes. Not a real person's closet.
@@ -16,7 +42,7 @@ export function sampleItems(): Item[] {
     ...partial,
     notes: partial.notes ?? "",
     lastWorn: partial.lastWorn ?? null,
-    photoDataUrl: null,
+    photoDataUrl: catalogPhoto(partial.id),
     archived: false,
     sample: true,
     createdAt: created,

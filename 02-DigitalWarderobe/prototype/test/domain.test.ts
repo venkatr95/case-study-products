@@ -245,6 +245,31 @@ describe("render", () => {
     expect(html).toContain("Dismiss");
   });
 
+  it("shows small catalog photos and an upload on a new outfit", () => {
+    const state = replaceWithSample(freshState());
+    state.prefs.onboarded = true;
+    state.route = { name: "outfit-form", id: null };
+    state.draft = {
+      mode: "outfit",
+      id: null,
+      name: "",
+      occasion: "work",
+      weather: "mild",
+      itemIds: ["sample-oxford"],
+      notes: "",
+      source: "manual",
+      factors: [],
+      pickerQuery: "",
+      error: null,
+    };
+    const html = renderApp(state);
+    expect(html).toContain("./sample/oxford.jpg");
+    expect(html).toContain("./sample/coat.jpg");
+    expect(html).toContain('class="item-photo-input"');
+    expect(html).toContain("Upload a photo for Ivory oxford shirt");
+    expect(html).not.toContain('<svg class="garment"');
+  });
+
   it("shows the photo failure copy and the manual save", () => {
     const state = freshState();
     state.prefs.onboarded = true;

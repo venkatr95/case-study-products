@@ -40,6 +40,11 @@ export function garment(category: Category, color: ColorName): string {
   return `<svg class="garment" viewBox="0 0 80 104" aria-hidden="true"><rect width="80" height="104" fill="#F7F1EA"/><path d="${shapes[category]}" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}"/></svg>`;
 }
 
+export function thumb(photo: string | null, category: Category, color: ColorName): string {
+  if (photo) return `<img class="thumb" src="${esc(photo)}" alt="" />`;
+  return garment(category, color);
+}
+
 export function photoOrGarment(photo: string | null, category: Category, color: ColorName, label: string): string {
   if (photo) {
     return `<img class="photo" src="${esc(photo)}" alt="${esc(label)}" />`;

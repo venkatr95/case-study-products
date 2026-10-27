@@ -1,4 +1,4 @@
-import { sampleItems } from "./sample";
+import { catalogPhoto, sampleItems } from "./sample";
 import { hrefFor, parseHash, screenTitle } from "./route";
 import type {
   AppState,
@@ -207,10 +207,20 @@ function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
 }
 
+function withCatalogPhotos(items: Item[]): Item[] {
+  return items.map((item) => {
+    if (!item.sample) return item;
+    if (typeof item.photoDataUrl === "string" && item.photoDataUrl.startsWith("data:")) return item;
+    const catalog = catalogPhoto(item.id);
+    if (!catalog || item.photoDataUrl === catalog) return item;
+    return { ...item, photoDataUrl: catalog };
+  });
+}
+
 export function hydrate(raw: unknown): AppState {
   const next = freshState();
   if (!isRecord(raw)) return next;
-  if (Array.isArray(raw.items)) next.items = raw.items as AppState["items"];
+  if (Array.isArray(raw.items)) next.items = withCatalogPhotos(raw.items as AppState["items"]);
   if (Array.isArray(raw.outfits)) next.outfits = raw.outfits as AppState["outfits"];
   if (Array.isArray(raw.trips)) next.trips = raw.trips as AppState["trips"];
   if (Array.isArray(raw.dismissed)) next.dismissed = raw.dismissed.filter((id) => typeof id === "string");

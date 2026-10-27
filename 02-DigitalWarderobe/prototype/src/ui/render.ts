@@ -27,7 +27,8 @@ import type {
   WeatherPref,
 } from "../types";
 import { canSaveOutfit, outfitSignature } from "../wardrobe";
-import { esc, garment, photoOrGarment } from "./markup";
+import { displayPhoto } from "../sample";
+import { esc, garment, photoOrGarment, thumb } from "./markup";
 
 const CATEGORY_ORDER: Category[] = [
   "outerwear",
@@ -242,8 +243,9 @@ function emptyWardrobe(state: AppState, activeCount: number, archivedCount: numb
 
 function card(item: Item): string {
   const meta = `${categoryLabel[item.category]} · ${colorLabel[item.color]} · ${seasonLabel[item.season]}`;
+  const photo = displayPhoto(item);
   return `<a class="card" role="listitem" href="#/items/${esc(item.id)}">
-    ${item.photoDataUrl ? `<img src="${esc(item.photoDataUrl)}" alt="" />` : garment(item.category, item.color)}
+    ${photo ? `<img src="${esc(photo)}" alt="" />` : garment(item.category, item.color)}
     <span class="card-copy">
       <span class="card-name">${esc(item.name)}</span>
       <span class="card-meta">${esc(meta)}</span>
@@ -256,8 +258,16 @@ function chip(action: string, value: string, label: string, pressed: boolean): s
   return `<button type="button" class="chip" id="chip-${esc(action)}-${esc(value)}" data-action="${action}" data-value="${esc(value)}" aria-pressed="${pressed ? "true" : "false"}">${esc(label)}</button>`;
 }
 
+function itemPreview(draft: ItemDraft): string | null {
+  if (draft.photoDataUrl?.startsWith("data:")) return draft.photoDataUrl;
+  if (draft.id) return displayPhoto({ id: draft.id, photoDataUrl: draft.photoDataUrl });
+  return draft.photoDataUrl;
+}
+
 function itemForm(state: AppState, draft: ItemDraft): string {
   const upload = state.upload;
+  const preview = itemPreview(draft);
+  const ownPhoto = draft.photoDataUrl?.startsWith("data:") === true;
   return `<form class="form" data-form="item">
     <p class="lede">A name, category, color, season, and how dressy it is are enough to save. A photo is optional, and it is not scanned.</p>
     ${draft.error ? `<p class="form-error" role="alert">${esc(draft.error)}</p>` : ""}
@@ -271,12 +281,12 @@ function itemForm(state: AppState, draft: ItemDraft): string {
     ${field("Price, optional", `<input id="field-price" data-field="price" inputmode="decimal" value="${esc(draft.price)}" />`, "Used only if you want cost per wear. Leave blank to skip.")}
     <fieldset class="photo-box">
       <legend>Photo, optional</legend>
-      ${draft.photoDataUrl ? `<img class="preview" src="${esc(draft.photoDataUrl)}" alt="Selected item photo" />` : `<div class="preview preview-empty">${garment(draft.category, draft.color)}<p>No photo yet</p></div>`}
+      ${preview ? `<img class="preview" src="${esc(preview)}" alt="Selected item photo" />` : `<div class="preview preview-empty">${garment(draft.category, draft.color)}<p>No photo yet</p></div>`}
       ${upload.phase === "reading" ? `<div class="progress" style="--progress:${upload.progress}%" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${upload.progress}" aria-label="Photo preparation">${upload.progress}%</div>` : ""}
       ${upload.phase === "error" ? `<p class="form-error" role="alert">${esc(upload.message)}</p>` : ""}
       ${upload.phase === "idle" && upload.message ? `<p class="fine">${esc(upload.message)}</p>` : ""}
       <label class="button button-secondary file-button">Choose a photo<input id="photo-input" type="file" accept="image/jpeg,image/png,image/webp,image/gif" /></label>
-      ${draft.photoDataUrl ? `<button type="button" class="button button-secondary" data-action="clear-draft-photo">Remove photo</button>` : ""}
+      ${ownPhoto ? `<button type="button" class="button button-secondary" data-action="clear-draft-photo">Remove photo</button>` : ""}
       <p class="fine">If the photo fails, you can still save the item. Rewear does not detect color, size, or anything about you from the picture.</p>
       <details>
         <summary>Reviewer tools</summary>
@@ -325,7 +335,7 @@ function itemDetail(state: AppState, id: string): string {
       ? "Not worn yet"
       : `Last worn ${displayDate(item.lastWorn)}`;
   return `<a class="back" href="#/wardrobe">Back to wardrobe</a>
-    <div class="detail-hero">${photoOrGarment(item.photoDataUrl, item.category, item.color, item.name)}</div>
+    <div class="detail-hero">${photoOrGarment(displayPhoto(item), item.category, item.color, item.name)}</div>
     <ul class="meta-list">
       <li>${esc(categoryLabel[item.category])}</li>
       <li>${esc(colorLabel[item.color])}</li>
@@ -349,7 +359,7 @@ function itemDetail(state: AppState, id: string): string {
     <div class="row-actions">
       <a class="button" href="#/items/${esc(item.id)}/edit">Edit</a>
       <button type="button" class="button button-secondary" data-action="toggle-archive" data-id="${esc(item.id)}">${item.archived ? "Restore" : "Archive"}</button>
-      ${item.photoDataUrl ? `<button type="button" class="button button-secondary" data-action="ask-delete-photo" data-id="${esc(item.id)}">Delete photo</button>` : ""}
+      ${item.photoDataUrl?.startsWith("data:") ? `<button type="button" class="button button-secondary" data-action="ask-delete-photo" data-id="${esc(item.id)}">Delete photo</button>` : ""}
       <button type="button" class="button button-danger" data-action="ask-delete-item" data-id="${esc(item.id)}">Delete item</button>
     </div>`;
 }
@@ -371,7 +381,7 @@ function outfits(state: AppState): string {
       .map((outfit) => {
         const pieces = orderedItems(outfit.itemIds, state.items);
         return `<a class="outfit-row" href="#/outfits/${esc(outfit.id)}">
-          <span class="mini-row">${pieces.slice(0, 4).map((item) => garment(item.category, item.color)).join("") || ""}</span>
+          <span class="mini-row">${pieces.slice(0, 4).map((item) => thumb(displayPhoto(item), item.category, item.color)).join("") || ""}</span>
           <span><strong>${esc(outfit.name)}</strong><span class="card-meta">${esc(occasionLabel[outfit.occasion])} · ${esc(weatherLabel[outfit.weather])} · ${pieces.length} ${pieces.length === 1 ? "item" : "items"}</span></span>
         </a>`;
       })
@@ -397,20 +407,32 @@ function outfitForm(state: AppState, draft: OutfitDraft): string {
     <p class="fine">Weather is a preference you choose. Rewear does not use your location.</p>
     <section class="panel">
       <h2>Selected</h2>
-      ${selected.length === 0 ? `<p>Nothing selected yet.</p>` : `<ul class="plain-list">${selected.map((item) => `<li><span>${esc(item.name)}</span> <button type="button" id="remove-${esc(item.id)}" data-action="remove-outfit-item" data-id="${esc(item.id)}">Remove</button></li>`).join("")}</ul>`}
+      ${selected.length === 0 ? `<p>Nothing selected yet.</p>` : `<ul class="plain-list">${selected.map((item) => `<li class="selected-item">${thumb(displayPhoto(item), item.category, item.color)}<span>${esc(item.name)}</span> <button type="button" id="remove-${esc(item.id)}" data-action="remove-outfit-item" data-id="${esc(item.id)}">Remove</button></li>`).join("")}</ul>`}
       ${selected.length > 0 && !check.ok ? `<p class="form-error">${esc(check.reason)}</p>` : ""}
       ${duplicateNote(selected)}
     </section>
     <label class="field"><span>Find an item</span><input id="field-picker" data-field="picker" value="${esc(pickerQuery)}" placeholder="Search your wardrobe" /></label>
+    <p class="fine">Each piece shows a small photo. Upload replaces it with a picture of your own. The photo stays in this browser.</p>
+    ${uploadNote(state)}
     ${active.length === 0 ? `<div class="empty"><p>Add items before building an outfit.</p><a class="button" href="#/items/new">Add item</a></div>` : `<div class="pick-list">${visible.map((item) => {
       const on = draft.itemIds.includes(item.id);
-      return `<button type="button" class="pick ${on ? "is-on" : ""}" id="pick-${esc(item.id)}" data-action="toggle-outfit-item" data-id="${esc(item.id)}" aria-pressed="${on ? "true" : "false"}">${garment(item.category, item.color)}<span>${esc(item.name)}<small>${esc(categoryLabel[item.category])}</small></span></button>`;
+      return `<div class="pick-row ${on ? "is-on" : ""}"><button type="button" class="pick" id="pick-${esc(item.id)}" data-action="toggle-outfit-item" data-id="${esc(item.id)}" aria-pressed="${on ? "true" : "false"}">${thumb(displayPhoto(item), item.category, item.color)}<span>${esc(item.name)}<small>${esc(categoryLabel[item.category])}</small></span></button><label class="thumb-upload file-button">Upload<input class="item-photo-input" type="file" accept="image/jpeg,image/png,image/webp,image/gif" data-item-id="${esc(item.id)}" aria-label="Upload a photo for ${esc(item.name)}" /></label></div>`;
     }).join("")}</div>`}
     <div class="row-actions">
       <button type="submit" class="button" data-action="save-outfit">Save outfit</button>
       <a class="button button-secondary" href="${draft.id ? `#/outfits/${esc(draft.id)}` : "#/outfits"}">Cancel</a>
     </div>
   </form>`;
+}
+
+function uploadNote(state: AppState): string {
+  const upload = state.upload;
+  if (upload.phase === "reading") {
+    return `<div class="progress" style="--progress:${upload.progress}%" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${upload.progress}" aria-label="Photo preparation">${upload.progress}%</div>`;
+  }
+  if (upload.phase === "error") return `<p class="form-error" role="alert">${esc(upload.message)}</p>`;
+  if (upload.message) return `<p class="fine">${esc(upload.message)}</p>`;
+  return "";
 }
 
 function duplicateNote(items: Item[]): string {
@@ -448,7 +470,7 @@ function outfitDetail(state: AppState, id: string): string {
     ${outfit.notes ? `<p>${esc(outfit.notes)}</p>` : ""}
     <div class="stack">${pieces
       .map(
-        (item) => `<a class="outfit-row" href="#/items/${esc(item.id)}">${photoOrGarment(item.photoDataUrl, item.category, item.color, item.name)}<span><strong>${esc(item.name)}</strong><span class="card-meta">${esc(categoryLabel[item.category])}${item.archived ? " · Archived" : ""}</span></span></a>`,
+        (item) => `<a class="outfit-row" href="#/items/${esc(item.id)}">${photoOrGarment(displayPhoto(item), item.category, item.color, item.name)}<span><strong>${esc(item.name)}</strong><span class="card-meta">${esc(categoryLabel[item.category])}${item.archived ? " · Archived" : ""}</span></span></a>`,
       )
       .join("")}
       ${missingIds.length ? `<p class="form-error">${missingIds.length} item${missingIds.length === 1 ? " is" : "s are"} no longer in the wardrobe.</p>` : ""}
@@ -483,7 +505,7 @@ function suggestions(state: AppState, draft: SuggestDraft): string {
         const pieces = orderedItems(suggestion.itemIds, state.items);
         return `<article class="panel suggestion">
           <h2>${pieces.map((item) => esc(item.name)).join(", ")}</h2>
-          <div class="mini-row">${pieces.map((item) => garment(item.category, item.color)).join("")}</div>
+          <div class="mini-row">${pieces.map((item) => thumb(displayPhoto(item), item.category, item.color)).join("")}</div>
           <h3>Why this was suggested</h3>
           <ul>${suggestion.factors.map((factor) => `<li>${esc(factor)}</li>`).join("")}</ul>
           <div class="row-actions">

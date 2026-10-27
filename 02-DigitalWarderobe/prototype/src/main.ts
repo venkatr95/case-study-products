@@ -111,8 +111,11 @@ function onField(event: Event): void {
 
 app.addEventListener("change", async (event) => {
   const target = event.target;
-  if (!(target instanceof HTMLInputElement) || target.id !== "photo-input") return;
+  const forItem = target instanceof HTMLInputElement && target.classList.contains("item-photo-input");
+  if (!(target instanceof HTMLInputElement) || (target.id !== "photo-input" && !forItem)) return;
+  const itemId = target.getAttribute("data-item-id");
   const file = target.files?.[0];
+  target.value = "";
   if (!file) return;
   update((current) => ({ ...current, upload: { phase: "reading", progress: 4, message: "" } }));
   const result = await readPhotoFile(file, (progress) => {
@@ -125,15 +128,28 @@ app.addEventListener("change", async (event) => {
     }));
     return;
   }
-  update((current) =>
-    current.draft?.mode === "item"
+  update((current) => {
+    if (forItem && itemId && result.dataUrl) {
+      return {
+        ...current,
+        upload: { phase: "idle", progress: 100, message: "Photo saved on this item. It stays in this browser." },
+        toast: "Photo saved on this item. It stays in this browser.",
+        announcement: "Photo saved on this item.",
+        items: current.items.map((item) => (item.id === itemId ? { ...item, photoDataUrl: result.dataUrl } : item)),
+        draft:
+          current.draft?.mode === "item" && current.draft.id === itemId
+            ? { ...current.draft, photoDataUrl: result.dataUrl }
+            : current.draft,
+      };
+    }
+    return current.draft?.mode === "item"
       ? {
           ...current,
           upload: { phase: "idle", progress: 100, message: result.message },
           draft: { ...current.draft, photoDataUrl: result.dataUrl },
         }
-      : current,
-  );
+      : current;
+  });
 });
 
 document.addEventListener("keydown", (event) => {
