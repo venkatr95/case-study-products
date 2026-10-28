@@ -2,12 +2,13 @@
 
 Portfolio case studies published from this repository. Each top-level folder is one product: the design record, the prototype, and the overview shown on [pmbyven collections](https://www.pmbyven.com/collections).
 
-Two studies are here.
+Three studies are here.
 
 | Folder | Product | Collections page | Live demo |
 | --- | --- | --- | --- |
 | [01-MoneyMind](01-MoneyMind/) | MoneyMind | [collections/moneymind](https://www.pmbyven.com/collections/moneymind) | [pmbyven-moneymind.vercel.app](https://pmbyven-moneymind.vercel.app) |
 | [02-DigitalWarderobe](02-DigitalWarderobe/) | Rewear | [collections/rewear](https://www.pmbyven.com/collections/rewear) | [pmbyven-rewear.vercel.app](https://pmbyven-rewear.vercel.app) |
+| [03-NavAccessPath](03-NavAccessPath/) | AccessPath | [collections/accesspath](https://www.pmbyven.com/collections/accesspath) | [pmbyven-accesspath.vercel.app](https://pmbyven-accesspath.vercel.app) |
 
 The collections page reads `overview.md` in each folder. **Visit live demo** opens the Vercel app. The GitHub link on that page points at the folder in this repository.
 
@@ -35,9 +36,21 @@ The folder name is `02-DigitalWarderobe`. The product name is Rewear. The protot
 - Vercel project `pmbyven-rewear`, root directory `02-DigitalWarderobe/prototype`
 - Report: `02-DigitalWarderobe/case-study-report.docx` and `case-study-report.pdf`
 
+## AccessPath
+
+Find routes that work for your mobility needs, not just the shortest route.
+
+The folder name is `03-NavAccessPath`. The product name is AccessPath. The prototype compares sample walks by stairs, curb ramps, and steepness, and keeps confirmed, community-reported, and unknown as separate facts. It is not a navigation service. Seattle streets in the demo are illustrative.
+
+- Record and how to run it: [03-NavAccessPath/README.md](03-NavAccessPath/README.md)
+- Overview: [03-NavAccessPath/overview.md](03-NavAccessPath/overview.md)
+- Prototype: `03-NavAccessPath/app` (`npm test`, then `npm start`, opens `http://127.0.0.1:4175`)
+- Vercel project `pmbyven-accesspath`, root directory `03-NavAccessPath/app`
+- Report: `03-NavAccessPath/09-case-study/case-study-report.docx` and `case-study-report.pdf`
+
 ## What each study contains
 
-Both folders use the same numbered record:
+Each folder uses the same numbered record:
 
 | Path | What it is |
 | --- | --- |

@@ -1,0 +1,16 @@
+{
+  "name": "accesspath-prototype",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AccessPath portfolio prototype. Illustrative Seattle sample. Not a navigation service.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/evaluate.test.js",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.3"
+  }
+}

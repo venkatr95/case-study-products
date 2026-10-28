@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320">
+  <rect width="960" height="320" fill="#F4F0E6"/>
+  <text x="32" y="42" font-family="Georgia, serif" font-size="28" fill="#14202B">How a route gets its status</text>
+  <text x="32" y="72" font-family="Segoe UI, sans-serif" font-size="16" fill="#3A4654">A selected setting must be confirmed and within the limit. Otherwise the route cannot match.</text>
+  <g font-family="Segoe UI, sans-serif" font-size="16" fill="#14202B">
+    <rect x="32" y="110" width="280" height="150" rx="16" fill="#E5F4EF" stroke="#0C5C4E"/>
+    <text x="52" y="146" font-weight="700">Confirmed and within limits</text>
+    <text x="52" y="176">Status: Matches on confirmed data</text>
+    <text x="52" y="206">Not a guarantee.</text>
+    <rect x="340" y="110" width="280" height="150" rx="16" fill="#E7EDF3" stroke="#243140"/>
+    <text x="360" y="146" font-weight="700">A selected fact is unknown</text>
+    <text x="360" y="176">Status: Some details are unknown</text>
+    <text x="360" y="206">A community all-clear does not confirm.</text>
+    <rect x="648" y="110" width="280" height="150" rx="16" fill="#F8E8E6" stroke="#7E2424"/>
+    <text x="668" y="146" font-weight="700">Confirmed conflict or outage</text>
+    <text x="668" y="176">Status: Conflicts</text>
+    <text x="668" y="206">The route stays in the list.</text>
+  </g>
+</svg>
