@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="994" viewBox="0 0 1120 994" role="img">
+<title>WF-01 Welcome — guidance, not a prediction</title>
+<rect width="1120" height="994" fill="#f4f4f1"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#555">WF-01 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="72" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1c1c1c">Welcome — guidance, not a prediction</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="64" y="124" font-family="Georgia, serif" font-size="16" fill="#111">SkillBridge</text>
+<text x="56" y="168" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Career navigator</text>
+<text x="56" y="190" font-family="Georgia, serif" font-size="24" fill="#111">Turn the skills you already</text>
+<text x="56" y="220" font-family="Georgia, serif" font-size="24" fill="#111">have into a clear path to</text>
+<text x="56" y="250" font-family="Georgia, serif" font-size="24" fill="#111">your next role.</text>
+<text x="56" y="286" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">Compare skills you choose to enter with a</text>
+<text x="56" y="306" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">role profile, then keep a few small</text>
+<text x="56" y="326" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">actions.</text>
+<rect x="56" y="352" width="340" height="98" rx="10" fill="#f3f3f1" stroke="#999"/>
+<text x="68" y="376" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">What this is not</text>
+<text x="68" y="396" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Not a hiring, pay, or interview</text>
+<text x="68" y="416" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">prediction.</text>
+<text x="68" y="436" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Not a tool for ranking candidates.</text>
+<rect x="56" y="462" width="340" height="44" rx="22" fill="#222" stroke="#222"/>
+<text x="226" y="490" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#fff" text-anchor="middle">Choose a role</text>
+<rect x="56" y="518" width="340" height="44" rx="22" fill="#fff" stroke="#222"/>
+<text x="226" y="546" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#111" text-anchor="middle">Explore with Maya's sample</text>
+<text x="56" y="574" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#222" text-anchor="start">Maya Chen is fictional. Sample data stays in</text>
+<text x="56" y="592" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#222" text-anchor="start">this browser.</text>
+<text x="470" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#111">Annotations</text>
+<text x="470" y="150" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">1. The limit is visible before any comparison.</text><text x="470" y="172" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">2. There is no score, gauge, or hireability</text><text x="470" y="194" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">label.</text><text x="470" y="216" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">3. The sample is optional and named as fiction.</text><text x="470" y="238" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">4. Covers the release check that users can</text><text x="470" y="260" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">proceed without a resume.</text><text x="470" y="282" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">5. Screen S-01. Requirements: trust labeling,</text><text x="470" y="304" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">FR-03 framing.</text>
+<text x="36" y="966" font-family="Segoe UI, sans-serif" font-size="13" fill="#555">Responsive: one column under 720px. Primary navigation wraps. Touch targets are 44px. No match-score graphic.</text>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="994" viewBox="0 0 1120 994" role="img">
+<title>WF-11 Action detail</title>
+<rect width="1120" height="994" fill="#f4f4f1"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#555">WF-11 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="72" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1c1c1c">Action detail</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="64" y="124" font-family="Georgia, serif" font-size="16" fill="#111">SkillBridge</text>
+<text x="56" y="168" font-family="Georgia, serif" font-size="24" fill="#111">Write one stakeholder update</text>
+<text x="56" y="204" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">The work breaks when people who depend on</text>
+<text x="56" y="224" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">a handoff do not hear what changed.</text>
+<rect x="56" y="250" width="95" height="26" rx="13" fill="#eee" stroke="#999"/>
+<text x="65" y="268" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#222" text-anchor="start">Not started</text>
+<rect x="159" y="250" width="53" height="26" rx="13" fill="#eee" stroke="#999"/>
+<text x="168" y="268" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#222" text-anchor="start">Doing</text>
+<rect x="220" y="250" width="46" height="26" rx="13" fill="#eee" stroke="#999"/>
+<text x="229" y="268" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#222" text-anchor="start">Done</text>
+<text x="56" y="290" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">What you will be able to do</text>
+<rect x="56" y="298" width="340" height="40" rx="8" fill="#fff" stroke="#999"/>
+<text x="68" y="324" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#555" text-anchor="start">Someone outside the room can see the change, the blocker, and the ask.</text>
+<text x="56" y="354" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">First step</text>
+<rect x="56" y="362" width="340" height="40" rx="8" fill="#fff" stroke="#999"/>
+<text x="68" y="388" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#555" text-anchor="start">Write five lines. Plan on 30 to 45 minutes.</text>
+<rect x="56" y="418" width="340" height="98" rx="10" fill="#fff" stroke="#999"/>
+<text x="68" y="442" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">plainlanguage.gov · Short, concrete</text>
+<text x="68" y="462" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">writing</text>
+<text x="68" y="482" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Example link. Not an endorsement. Opens</text>
+<text x="68" y="502" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">the provider site.</text>
+<rect x="56" y="528" width="340" height="44" rx="22" fill="#222" stroke="#222"/>
+<text x="226" y="556" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#fff" text-anchor="middle">Save changes</text>
+<rect x="56" y="584" width="340" height="44" rx="22" fill="#fff" stroke="#222"/>
+<text x="226" y="612" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#111" text-anchor="middle">Remove action</text>
+<text x="470" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#111">Annotations</text>
+<text x="470" y="150" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">1. Status can be changed and undone. FR-05.</text><text x="470" y="172" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">2. Outcome, step, and note are editable. FR-04.</text><text x="470" y="194" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">3. The resource names the provider and the</text><text x="470" y="216" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">topic, and opens separately. FR-07.</text><text x="470" y="238" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">4. Removing the example link does not remove the</text><text x="470" y="260" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">action.</text><text x="470" y="282" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">5. Screen S-12.</text>
+<text x="36" y="966" font-family="Segoe UI, sans-serif" font-size="13" fill="#555">Responsive: one column under 720px. Primary navigation wraps. Touch targets are 44px. No match-score graphic.</text>
+</svg>

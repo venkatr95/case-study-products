@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="994" viewBox="0 0 1120 994" role="img">
+<title>WF-07 Review suggestions before saving</title>
+<rect width="1120" height="994" fill="#f4f4f1"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#555">WF-07 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="72" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1c1c1c">Review suggestions before saving</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="64" y="124" font-family="Georgia, serif" font-size="16" fill="#111">SkillBridge</text>
+<text x="56" y="168" font-family="Georgia, serif" font-size="24" fill="#111">Check the skills that are</text>
+<text x="56" y="198" font-family="Georgia, serif" font-size="24" fill="#111">true</text>
+<text x="56" y="234" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">Each suggestion starts at Practicing, with</text>
+<text x="56" y="254" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">low confidence. Unchecked skills are</text>
+<text x="56" y="274" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">discarded.</text>
+<rect x="56" y="300" width="340" height="138" rx="10" fill="#fff" stroke="#999"/>
+<text x="68" y="324" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">[ ] Scheduling</text>
+<text x="68" y="344" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Found: I build the weekly floor schedule</text>
+<text x="68" y="364" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Suggested from pasted text. Not saved</text>
+<text x="68" y="384" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">yet.</text>
+<text x="68" y="404" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Proficiency: Practicing</text>
+<text x="68" y="424" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Confidence: Low</text>
+<rect x="56" y="450" width="340" height="98" rx="10" fill="#fff" stroke="#999"/>
+<text x="68" y="474" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">[ ] Customer conversations</text>
+<text x="68" y="494" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Found: I talk with customers about</text>
+<text x="68" y="514" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">returns</text>
+<text x="68" y="534" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Not saved until you check it.</text>
+<rect x="56" y="560" width="340" height="44" rx="22" fill="#222" stroke="#222"/>
+<text x="226" y="588" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#fff" text-anchor="middle">Add the skills I checked</text>
+<rect x="56" y="616" width="340" height="44" rx="22" fill="#fff" stroke="#222"/>
+<text x="226" y="644" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#111" text-anchor="middle">Delete pasted text</text>
+<text x="56" y="672" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#222" text-anchor="start">The save button stays off until one skill is</text>
+<text x="56" y="690" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#222" text-anchor="start">checked.</text>
+<text x="470" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#111">Annotations</text>
+<text x="470" y="150" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">1. Nothing is pre-checked. Confirmation is the</text><text x="470" y="172" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">save. FR-06.</text><text x="470" y="194" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">2. The matched sentence is shown, so a bad guess</text><text x="470" y="216" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">can be rejected.</text><text x="470" y="238" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">3. Defaults admit uncertainty: practicing and</text><text x="470" y="260" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">low confidence.</text><text x="470" y="282" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">4. Delete discards the paste in this tab.</text><text x="470" y="304" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">5. Screen S-08.</text>
+<text x="36" y="966" font-family="Segoe UI, sans-serif" font-size="13" fill="#555">Responsive: one column under 720px. Primary navigation wraps. Touch targets are 44px. No match-score graphic.</text>
+</svg>

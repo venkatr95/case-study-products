@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="994" viewBox="0 0 1120 994" role="img">
+<title>WF-06 Paste resume text</title>
+<rect width="1120" height="994" fill="#f4f4f1"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#555">WF-06 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="72" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1c1c1c">Paste resume text</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="64" y="124" font-family="Georgia, serif" font-size="16" fill="#111">SkillBridge</text>
+<text x="56" y="168" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Optional</text>
+<text x="56" y="190" font-family="Georgia, serif" font-size="24" fill="#111">Paste resume text</text>
+<text x="56" y="226" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">Suggestions can be wrong. Nothing is saved</text>
+<text x="56" y="246" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">until you check the skills that are true.</text>
+<text x="56" y="272" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#222" text-anchor="start">Phone numbers and addresses are not needed. The</text>
+<text x="56" y="290" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#222" text-anchor="start">paste stays in this tab only.</text>
+<text x="56" y="314" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">Resume text</text>
+<rect x="56" y="322" width="340" height="40" rx="8" fill="#fff" stroke="#999"/>
+<text x="68" y="348" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#555" text-anchor="start">Paste one resume</text>
+<rect x="56" y="378" width="340" height="44" rx="22" fill="#222" stroke="#222"/>
+<text x="226" y="406" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#fff" text-anchor="middle">Review suggestions</text>
+<rect x="56" y="434" width="340" height="44" rx="22" fill="#fff" stroke="#222"/>
+<text x="226" y="462" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#111" text-anchor="middle">Use the practice resume</text>
+<text x="470" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#111">Annotations</text>
+<text x="470" y="150" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">1. Import is a review step, not an automatic</text><text x="470" y="172" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">profile. FR-06.</text><text x="470" y="194" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">2. Raw paste is not written to saved data.</text><text x="470" y="216" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">3. The practice resume is fictional and</text><text x="470" y="238" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">disclosed.</text><text x="470" y="260" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">4. No file upload in this prototype.</text><text x="470" y="282" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">5. Screen S-07.</text>
+<text x="36" y="966" font-family="Segoe UI, sans-serif" font-size="13" fill="#555">Responsive: one column under 720px. Primary navigation wraps. Touch targets are 44px. No match-score graphic.</text>
+</svg>

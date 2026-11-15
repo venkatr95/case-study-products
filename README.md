@@ -1,16 +1,17 @@
 # Case study products
 
-Portfolio case studies published from this repository. Each top-level folder is one product: the design record, the prototype, and the overview shown on [pmbyven collections](https://www.pmbyven.com/collections).
+Portfolio case studies in this repository. Each top-level folder is one product: the design record and the prototype. Published studies also include the overview shown on [pmbyven collections](https://www.pmbyven.com/collections).
 
-Three studies are here.
+Four studies are here.
 
 | Folder | Product | Collections page | Live demo |
 | --- | --- | --- | --- |
 | [01-MoneyMind](01-MoneyMind/) | MoneyMind | [collections/moneymind](https://www.pmbyven.com/collections/moneymind) | [pmbyven-moneymind.vercel.app](https://pmbyven-moneymind.vercel.app) |
 | [02-DigitalWarderobe](02-DigitalWarderobe/) | Rewear | [collections/rewear](https://www.pmbyven.com/collections/rewear) | [pmbyven-rewear.vercel.app](https://pmbyven-rewear.vercel.app) |
 | [03-NavAccessPath](03-NavAccessPath/) | AccessPath | [collections/accesspath](https://www.pmbyven.com/collections/accesspath) | [pmbyven-accesspath.vercel.app](https://pmbyven-accesspath.vercel.app) |
+| [04-CareerNavigator](04-CareerNavigator/) | SkillBridge | [collections/skillbridge](https://www.pmbyven.com/collections/skillbridge) | [pmbyven-skillbridge.vercel.app](https://pmbyven-skillbridge.vercel.app) |
 
-The collections page reads `overview.md` in each folder. **Visit live demo** opens the Vercel app. The GitHub link on that page points at the folder in this repository.
+The collections page reads `overview.md` in each published folder. **Visit live demo** opens the Vercel app. The GitHub link on that page points at the folder in this repository.
 
 ## MoneyMind
 
@@ -48,6 +49,19 @@ The folder name is `03-NavAccessPath`. The product name is AccessPath. The proto
 - Vercel project `pmbyven-accesspath`, root directory `03-NavAccessPath/app`
 - Report: `03-NavAccessPath/09-case-study/case-study-report.docx` and `case-study-report.pdf`
 
+## SkillBridge
+
+Turn the skills you already have into a clear path to your next role.
+
+The folder name is `04-CareerNavigator`. The product name is SkillBridge. The prototype compares skills a person confirms with one illustrative role profile, then saves up to three actions. It does not predict hiring, pay, or interviews. Maya Chen in the sample is fictional. Entries stay in this browser.
+
+- Record and how to run it: [04-CareerNavigator/README.md](04-CareerNavigator/README.md)
+- Overview: [04-CareerNavigator/overview.md](04-CareerNavigator/overview.md)
+- Prototype: `04-CareerNavigator/app` (`npm install`, `npm test`, `npm run dev` on `http://127.0.0.1:5174/`)
+- Vercel project `pmbyven-skillbridge`, root directory `04-CareerNavigator/app`
+- Report: `04-CareerNavigator/09-case-study/case-study-report.docx` and `case-study-report.pdf`
+- Build notes: [04-CareerNavigator/IMPLEMENTATION-REPORT.md](04-CareerNavigator/IMPLEMENTATION-REPORT.md)
+
 ## What each study contains
 
 Each folder uses the same numbered record:
@@ -67,10 +81,10 @@ Each folder uses the same numbered record:
 | `VALIDATION.md` | What was checked, and what is still open |
 | `assets/` | Diagrams, screenshots, and wireframes |
 
-MoneyMind’s runnable app is `app/`. Rewear’s runnable app is `prototype/`. Rewear also keeps `overview-summary.md` next to `overview.md`.
+MoneyMind, AccessPath, and SkillBridge keep the runnable app in `app/`. Rewear’s runnable app is `prototype/`. Rewear also keeps `overview-summary.md` next to `overview.md`. SkillBridge has no `VALIDATION.md`. Its check notes are `IMPLEMENTATION-REPORT.md`. It also keeps `09-case-study/overview-summary.md`.
 
 ## Evidence
 
-Interviews and usability tests have not been run. Personas, problem statements, and success targets in these folders are hypotheses. Competitor notes are dated inside each study. Prototype checks are recorded in each `VALIDATION.md`.
+Interviews and usability tests have not been run. Personas, problem statements, and success targets in these folders are hypotheses. Competitor notes are dated inside each study. Prototype checks for MoneyMind, Rewear, and AccessPath are in each `VALIDATION.md`. SkillBridge records them in `IMPLEMENTATION-REPORT.md`.
 
 The live demos are portfolio prototypes. Each one serves `robots.txt` with `Disallow: /` and a noindex header.

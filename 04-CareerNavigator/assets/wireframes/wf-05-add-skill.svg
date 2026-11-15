@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="994" viewBox="0 0 1120 994" role="img">
+<title>WF-05 Add or edit a skill</title>
+<rect width="1120" height="994" fill="#f4f4f1"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#555">WF-05 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="72" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1c1c1c">Add or edit a skill</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="64" y="124" font-family="Georgia, serif" font-size="16" fill="#111">SkillBridge</text>
+<text x="56" y="168" font-family="Georgia, serif" font-size="24" fill="#111">Add a skill</text>
+<text x="56" y="204" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">This is your description of your own</text>
+<text x="56" y="224" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">experience. It is not a test result.</text>
+<text x="56" y="250" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">Skill</text>
+<rect x="56" y="258" width="340" height="40" rx="8" fill="#fff" stroke="#999"/>
+<text x="68" y="284" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#555" text-anchor="start">Spreadsheets</text>
+<rect x="56" y="314" width="340" height="78" rx="10" fill="#fff" stroke="#999"/>
+<text x="68" y="338" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">What you can do</text>
+<text x="68" y="358" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Exploring · Practicing</text>
+<text x="68" y="378" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Comfortable · Strong</text>
+<rect x="56" y="404" width="340" height="58" rx="10" fill="#fff" stroke="#999"/>
+<text x="68" y="428" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">How sure you are</text>
+<text x="68" y="448" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Low · Medium · High</text>
+<text x="56" y="474" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">Where have you used this?</text>
+<rect x="56" y="482" width="340" height="40" rx="8" fill="#fff" stroke="#999"/>
+<text x="68" y="508" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#555" text-anchor="start">Optional example</text>
+<rect x="56" y="538" width="340" height="44" rx="22" fill="#222" stroke="#222"/>
+<text x="226" y="566" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#fff" text-anchor="middle">Save skill</text>
+<rect x="56" y="594" width="340" height="44" rx="22" fill="#fff" stroke="#222"/>
+<text x="226" y="622" font-family="Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#111" text-anchor="middle">Cancel</text>
+<text x="470" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#111">Annotations</text>
+<text x="470" y="150" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">1. Both self-assessment questions are required.</text><text x="470" y="172" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">FR-02.</text><text x="470" y="194" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">2. Hints define the words so they are not a</text><text x="470" y="216" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">hidden rubric.</text><text x="470" y="238" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">3. A skill that is not listed can be named, with</text><text x="470" y="260" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">a one-sentence definition.</text><text x="470" y="282" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">4. Screen S-06.</text>
+<text x="36" y="966" font-family="Segoe UI, sans-serif" font-size="13" fill="#555">Responsive: one column under 720px. Primary navigation wraps. Touch targets are 44px. No match-score graphic.</text>
+</svg>

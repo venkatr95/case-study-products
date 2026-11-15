@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="220" viewBox="0 0 1100 220" role="img">
+  <title>SkillBridge primary flow</title>
+  <rect width="1100" height="220" fill="#f3eee4"/>
+  <text x="32" y="36" font-family="Georgia, serif" font-size="20" fill="#1b1914">Primary flow — guidance, then a short plan</text>
+  <text x="32" y="58" font-family="Segoe UI, sans-serif" font-size="13" fill="#4e463c">Portfolio diagram. Not a research finding. 22 Oct 2026.</text>
+  <g font-family="Segoe UI, sans-serif" font-size="14" fill="#1b1914">
+    <rect x="32" y="84" width="140" height="72" rx="14" fill="#fffcf8" stroke="#0c5c46"/>
+    <text x="102" y="116" text-anchor="middle">Welcome</text>
+    <text x="102" y="136" text-anchor="middle" font-size="12" fill="#4e463c">See the limit</text>
+    <rect x="214" y="84" width="150" height="72" rx="14" fill="#fffcf8" stroke="#d9d0c3"/>
+    <text x="289" y="116" text-anchor="middle">Choose a role</text>
+    <text x="289" y="136" text-anchor="middle" font-size="12" fill="#4e463c">Source and date</text>
+    <rect x="406" y="84" width="150" height="72" rx="14" fill="#fffcf8" stroke="#d9d0c3"/>
+    <text x="481" y="116" text-anchor="middle">Add skills</text>
+    <text x="481" y="136" text-anchor="middle" font-size="12" fill="#4e463c">Or confirm a paste</text>
+    <rect x="598" y="84" width="170" height="72" rx="14" fill="#fffcf8" stroke="#d9d0c3"/>
+    <text x="683" y="116" text-anchor="middle">Read the comparison</text>
+    <text x="683" y="136" text-anchor="middle" font-size="12" fill="#4e463c">Words, no score</text>
+    <rect x="810" y="84" width="170" height="72" rx="14" fill="#e5f3ee" stroke="#0c5c46"/>
+    <text x="895" y="116" text-anchor="middle">Save three actions</text>
+    <text x="895" y="136" text-anchor="middle" font-size="12" fill="#4e463c">Edit, done, undo</text>
+  </g>
+  <g stroke="#0c5c46" stroke-width="2" fill="none">
+    <path d="M172 120 H214"/>
+    <path d="M364 120 H406"/>
+    <path d="M556 120 H598"/>
+    <path d="M768 120 H810"/>
+  </g>
+  <text x="32" y="190" font-family="Segoe UI, sans-serif" font-size="13" fill="#4e463c">An empty skill list stops at an empty state. It does not become a wall of gaps. Sample data is Maya Chen, who is fictional.</text>
+</svg>

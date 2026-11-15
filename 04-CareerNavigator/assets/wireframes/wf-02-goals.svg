@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="994" viewBox="0 0 1120 994" role="img">
+<title>WF-02 Choose a role</title>
+<rect width="1120" height="994" fill="#f4f4f1"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#555">WF-02 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="72" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1c1c1c">Choose a role</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="64" y="124" font-family="Georgia, serif" font-size="16" fill="#111">SkillBridge</text>
+<text x="56" y="168" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Step 1 · Goal</text>
+<text x="56" y="190" font-family="Georgia, serif" font-size="24" fill="#111">Choose a role to explore</text>
+<text x="56" y="226" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">Four roles are in customer, operations,</text>
+<text x="56" y="246" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">and coordination work. Junior data analyst</text>
+<text x="56" y="266" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">is a larger jump.</text>
+<rect x="56" y="292" width="340" height="98" rx="10" fill="#fff" stroke="#999"/>
+<text x="68" y="316" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">Product operations associate</text>
+<text x="68" y="336" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Keep requests, handoffs, and a weekly</text>
+<text x="68" y="356" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">count moving.</text>
+<text x="68" y="376" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Read the profile Use this role</text>
+<rect x="56" y="402" width="340" height="98" rx="10" fill="#fff" stroke="#999"/>
+<text x="68" y="426" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">Customer success associate</text>
+<text x="68" y="446" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Help a customer get value and leave a</text>
+<text x="68" y="466" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">clear note.</text>
+<text x="68" y="486" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Read the profile Use this role</text>
+<rect x="56" y="512" width="340" height="98" rx="10" fill="#fff" stroke="#999"/>
+<text x="68" y="536" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#222" text-anchor="start">Describe a role that is not listed</text>
+<text x="68" y="556" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Role name</text>
+<text x="68" y="576" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">What the work is, in one sentence</text>
+<text x="68" y="596" font-family="Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#222" text-anchor="start">Save this role</text>
+<text x="470" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#111">Annotations</text>
+<text x="470" y="150" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">1. The role family is explicit. Profiles are</text><text x="470" y="172" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">labeled illustrative.</text><text x="470" y="194" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">2. People can read a profile before committing.</text><text x="470" y="216" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">FR-01.</text><text x="470" y="238" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">3. A custom role is allowed when the five</text><text x="470" y="260" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">profiles miss.</text><text x="470" y="282" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">4. The larger-jump role warns that many gaps are</text><text x="470" y="304" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">not a verdict.</text><text x="470" y="326" font-family="Segoe UI, sans-serif" font-size="15" fill="#222">5. Screen S-02.</text>
+<text x="36" y="966" font-family="Segoe UI, sans-serif" font-size="13" fill="#555">Responsive: one column under 720px. Primary navigation wraps. Touch targets are 44px. No match-score graphic.</text>
+</svg>
