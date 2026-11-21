@@ -1,0 +1,20 @@
+{
+  "name": "freshloop-prototype",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "FreshLoop portfolio prototype. Local pantry, sample recipes, no food-safety verdicts.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "smoke": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "happy-dom": "^16.8.1",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.11",
+    "vitest": "^3.0.4"
+  }
+}

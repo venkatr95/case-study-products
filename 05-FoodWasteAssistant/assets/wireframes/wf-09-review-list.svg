@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980" role="img">
+<title>WF-09 Review the shopping list</title>
+<rect width="1040" height="980" fill="#f4efe6"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">WF-09 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="68" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1c2822">Review the shopping list</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fffcf7" stroke="#1c2822" stroke-width="3"/>
+<text x="64" y="128" font-family="Georgia, serif" font-size="20" fill="#1c2822">FreshLoop</text>
+<text x="64" y="156" font-family="Georgia, serif" font-size="24" fill="#1c2822">Check the list before</text>
+<text x="64" y="186" font-family="Georgia, serif" font-size="24" fill="#1c2822">you shop</text>
+<text x="64" y="222" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">Only confirmed amounts are subtracted.</text>
+<text x="64" y="242" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">Uncertain amounts stay on the list.</text>
+<rect x="64" y="270" width="334" height="36" rx="8" fill="#eceae4" stroke="#1c2822"/>
+<text x="76" y="294" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">On the list · Lemon · 1 piece · Short</text>
+<rect x="64" y="316" width="334" height="36" rx="8" fill="#eceae4" stroke="#1c2822"/>
+<text x="76" y="340" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">On the list · Garlic · 1 piece · Short</text>
+<rect x="64" y="362" width="334" height="36" rx="8" fill="#fffcf7" stroke="#cfc6b8"/>
+<text x="76" y="386" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Left off · Spinach · pantry covers 150 g</text>
+<rect x="64" y="408" width="334" height="36" rx="8" fill="#fffcf7" stroke="#cfc6b8"/>
+<text x="76" y="432" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Left off · Salt · staple</text>
+<rect x="64" y="454" width="334" height="44" rx="22" fill="#1c2822" stroke="#1c2822"/>
+<text x="231" y="482" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#fffcf7">Add selected items to my list</text>
+<rect x="64" y="510" width="334" height="44" rx="22" fill="#fffcf7" stroke="#1c2822"/>
+<text x="231" y="538" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">Discard this review</text>
+<rect x="36" y="860" width="390" height="76" fill="#fffcf7" stroke="#1c2822"/>
+<text x="70" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#1c2822">Pantry</text>
+<text x="162" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Cook</text>
+<text x="254" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Shop</text>
+<text x="346" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Plan</text>
+<text x="460" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#1c2822">Annotations</text>
+<text x="460" y="156" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">1. Covered items stay visible. Exclusion is not</text>
+<text x="460" y="178" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">silent.</text>
+<text x="460" y="212" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">2. A two-recipe plan subtracts the pantry once,</text>
+<text x="460" y="234" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">so lemon and garlic show the gap.</text>
+<text x="460" y="268" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">3. The person can put a left-off line back on</text>
+<text x="460" y="290" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">the list.</text>
+<text x="460" y="324" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">4. Covers FR-05.</text>
+<text x="460" y="930" font-family="Segoe UI, sans-serif" font-size="13" fill="#24312a">Responsive: one column under 960px. Side navigation from 960px. Targets at least 44px.</text>
+</svg>

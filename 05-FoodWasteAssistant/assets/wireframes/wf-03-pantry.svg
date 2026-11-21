@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980" role="img">
+<title>WF-03 Pantry — use soon first</title>
+<rect width="1040" height="980" fill="#f4efe6"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">WF-03 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="68" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1c2822">Pantry — use soon first</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fffcf7" stroke="#1c2822" stroke-width="3"/>
+<text x="64" y="128" font-family="Georgia, serif" font-size="20" fill="#1c2822">FreshLoop</text>
+<rect x="64" y="156" width="334" height="54" rx="8" fill="#f4efe6" stroke="#8d8376"/>
+<text x="76" y="176" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Sample kitchen. These items are</text>
+<text x="76" y="194" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">fictional.</text>
+<text x="64" y="222" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#24312a">Use soon · window 3 days</text>
+<text x="64" y="268" font-family="Georgia, serif" font-size="40" fill="#1c2822">4 items</text>
+<text x="64" y="308" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">1 item is marked Date passed. Dates are</text>
+<text x="64" y="328" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">reminders, not a safety check.</text>
+<rect x="64" y="356" width="334" height="44" rx="22" fill="#1c2822" stroke="#1c2822"/>
+<text x="231" y="384" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#fffcf7">Open the use-soon list</text>
+<text x="64" y="412" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#1c2822">Add an item</text>
+<rect x="64" y="420" width="334" height="40" rx="8" fill="#fffcf7" stroke="#8d8376"/>
+<text x="76" y="446" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">Name</text>
+<rect x="64" y="472" width="334" height="36" rx="8" fill="#fffcf7" stroke="#cfc6b8"/>
+<text x="76" y="496" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Spinach · 200 g · Fridge · Use soon</text>
+<rect x="64" y="518" width="334" height="36" rx="8" fill="#fffcf7" stroke="#cfc6b8"/>
+<text x="76" y="542" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Plain yogurt · 1 piece · Fridge · Date passed</text>
+<rect x="64" y="564" width="334" height="36" rx="8" fill="#eceae4" stroke="#1c2822"/>
+<text x="76" y="588" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Ginger · 1 piece · Fridge · Opened</text>
+<rect x="36" y="860" width="390" height="76" fill="#fffcf7" stroke="#1c2822"/>
+<text x="70" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#1c2822">Pantry</text>
+<text x="162" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Cook</text>
+<text x="254" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Shop</text>
+<text x="346" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Plan</text>
+<text x="460" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#1c2822">Annotations</text>
+<text x="460" y="156" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">1. The decision count is above the storage</text>
+<text x="460" y="178" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">lists.</text>
+<text x="460" y="212" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">2. Use soon, Date passed, and Opened are words,</text>
+<text x="460" y="234" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">not color alone.</text>
+<text x="460" y="268" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">3. Opened is visible and is not treated as an</text>
+<text x="460" y="290" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">expiry.</text>
+<text x="460" y="324" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">4. Covers FR-01 display and FR-03.</text>
+<text x="460" y="930" font-family="Segoe UI, sans-serif" font-size="13" fill="#24312a">Responsive: one column under 960px. Side navigation from 960px. Targets at least 44px.</text>
+</svg>

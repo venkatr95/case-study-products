@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980" role="img">
+<title>WF-07 Cook from the pantry</title>
+<rect width="1040" height="980" fill="#f4efe6"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">WF-07 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="68" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1c2822">Cook from the pantry</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fffcf7" stroke="#1c2822" stroke-width="3"/>
+<text x="64" y="128" font-family="Georgia, serif" font-size="20" fill="#1c2822">FreshLoop</text>
+<text x="64" y="156" font-family="Georgia, serif" font-size="24" fill="#1c2822">Cook from the pantry</text>
+<text x="64" y="192" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">Filters use listed ingredients. They are</text>
+<text x="64" y="212" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">not an allergen check.</text>
+<rect x="64" y="240" width="334" height="40" rx="8" fill="#fffcf7" stroke="#8d8376"/>
+<text x="76" y="266" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">Vegetarian · Vegan · Hide gluten</text>
+<text x="64" y="292" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#1c2822">Only recipes that use a Use soon item</text>
+<rect x="64" y="300" width="334" height="82" rx="10" fill="#f7f7f5" stroke="#8d8376"/>
+<text x="76" y="324" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">Spinach and chickpea skillet</text>
+<text x="76" y="346" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">Uses spinach · Use soon</text>
+<text x="76" y="368" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">Uses 6 pantry items · 0 missing</text>
+<rect x="64" y="394" width="334" height="36" rx="8" fill="#fffcf7" stroke="#cfc6b8"/>
+<text x="76" y="418" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Chickpea herb salad · Missing cilantro</text>
+<rect x="36" y="860" width="390" height="76" fill="#fffcf7" stroke="#1c2822"/>
+<text x="70" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#1c2822">Pantry</text>
+<text x="162" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Cook</text>
+<text x="254" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Shop</text>
+<text x="346" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Plan</text>
+<text x="460" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#1c2822">Annotations</text>
+<text x="460" y="156" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">1. Results are sorted toward items already</text>
+<text x="460" y="178" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">marked Use soon.</text>
+<text x="460" y="212" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">2. Missing and check counts are visible on the</text>
+<text x="460" y="234" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">card.</text>
+<text x="460" y="268" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">3. An empty pantry does not pretend to match.</text>
+<text x="460" y="290" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">Browsing is a second step.</text>
+<text x="460" y="324" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">4. Covers FR-04 and FR-06.</text>
+<text x="460" y="930" font-family="Segoe UI, sans-serif" font-size="13" fill="#24312a">Responsive: one column under 960px. Side navigation from 960px. Targets at least 44px.</text>
+</svg>

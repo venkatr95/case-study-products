@@ -2,7 +2,7 @@
 
 Portfolio case studies in this repository. Each top-level folder is one product: the design record and the prototype. Published studies also include the overview shown on [pmbyven collections](https://www.pmbyven.com/collections).
 
-Four studies are here.
+Five studies are here.
 
 | Folder | Product | Collections page | Live demo |
 | --- | --- | --- | --- |
@@ -10,6 +10,7 @@ Four studies are here.
 | [02-DigitalWarderobe](02-DigitalWarderobe/) | Rewear | [collections/rewear](https://www.pmbyven.com/collections/rewear) | [pmbyven-rewear.vercel.app](https://pmbyven-rewear.vercel.app) |
 | [03-NavAccessPath](03-NavAccessPath/) | AccessPath | [collections/accesspath](https://www.pmbyven.com/collections/accesspath) | [pmbyven-accesspath.vercel.app](https://pmbyven-accesspath.vercel.app) |
 | [04-CareerNavigator](04-CareerNavigator/) | SkillBridge | [collections/skillbridge](https://www.pmbyven.com/collections/skillbridge) | [pmbyven-skillbridge.vercel.app](https://pmbyven-skillbridge.vercel.app) |
+| [05-FoodWasteAssistant](05-FoodWasteAssistant/) | FreshLoop | [collections/foodwassistant](https://www.pmbyven.com/collections/foodwassistant) | [pmbyven-foodwassistant.vercel.app](https://pmbyven-foodwassistant.vercel.app) |
 
 The collections page reads `overview.md` in each published folder. **Visit live demo** opens the Vercel app. The GitHub link on that page points at the folder in this repository.
 
@@ -62,6 +63,18 @@ The folder name is `04-CareerNavigator`. The product name is SkillBridge. The pr
 - Report: `04-CareerNavigator/09-case-study/case-study-report.docx` and `case-study-report.pdf`
 - Build notes: [04-CareerNavigator/IMPLEMENTATION-REPORT.md](04-CareerNavigator/IMPLEMENTATION-REPORT.md)
 
+## FreshLoop
+
+Know what to cook before your groceries go to waste.
+
+The folder name is `05-FoodWasteAssistant`. The product name is FreshLoop. A person logs food already at home, sees which dates they entered are soon, and opens a recipe that shows what the pantry covers. The shopping list subtracts a quantity only when the units compare. The product does not decide whether food is safe. Entries stay in this browser.
+
+- Record and how to run it: [05-FoodWasteAssistant/README.md](05-FoodWasteAssistant/README.md)
+- Overview: [05-FoodWasteAssistant/overview.md](05-FoodWasteAssistant/overview.md)
+- Prototype: `05-FoodWasteAssistant/prototype` (`npm install`, `npm test`, `npm run dev` on `http://127.0.0.1:5185/`)
+- Vercel project `pmbyven-foodwassistant`, root directory `05-FoodWasteAssistant/prototype`
+- Report: `05-FoodWasteAssistant/case-study-report.docx` and `case-study-report.pdf`
+
 ## What each study contains
 
 Each folder uses the same numbered record:
@@ -81,10 +94,10 @@ Each folder uses the same numbered record:
 | `VALIDATION.md` | What was checked, and what is still open |
 | `assets/` | Diagrams, screenshots, and wireframes |
 
-MoneyMind, AccessPath, and SkillBridge keep the runnable app in `app/`. Rewear’s runnable app is `prototype/`. Rewear also keeps `overview-summary.md` next to `overview.md`. SkillBridge has no `VALIDATION.md`. Its check notes are `IMPLEMENTATION-REPORT.md`. It also keeps `09-case-study/overview-summary.md`.
+MoneyMind, AccessPath, and SkillBridge keep the runnable app in `app/`. Rewear and FreshLoop keep the runnable app in `prototype/`. Rewear and FreshLoop also keep `overview-summary.md` next to `overview.md`. SkillBridge has no `VALIDATION.md`. Its check notes are `IMPLEMENTATION-REPORT.md`. It also keeps `09-case-study/overview-summary.md`.
 
 ## Evidence
 
-Interviews and usability tests have not been run. Personas, problem statements, and success targets in these folders are hypotheses. Competitor notes are dated inside each study. Prototype checks for MoneyMind, Rewear, and AccessPath are in each `VALIDATION.md`. SkillBridge records them in `IMPLEMENTATION-REPORT.md`.
+Interviews and usability tests have not been run. Personas, problem statements, and success targets in these folders are hypotheses. Competitor notes are dated inside each study. Prototype checks for MoneyMind, Rewear, AccessPath, and FreshLoop are in each `VALIDATION.md`. SkillBridge records them in `IMPLEMENTATION-REPORT.md`.
 
 The live demos are portfolio prototypes. Each one serves `robots.txt` with `Disallow: /` and a noindex header.

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980" role="img">
+<title>WF-13 Reminders denied</title>
+<rect width="1040" height="980" fill="#f4efe6"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">WF-13 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="68" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1c2822">Reminders denied</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fffcf7" stroke="#1c2822" stroke-width="3"/>
+<text x="64" y="128" font-family="Georgia, serif" font-size="20" fill="#1c2822">FreshLoop</text>
+<text x="64" y="156" font-family="Georgia, serif" font-size="24" fill="#1c2822">Settings</text>
+<text x="64" y="192" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#1c2822">Use-soon window</text>
+<rect x="64" y="200" width="334" height="40" rx="8" fill="#fffcf7" stroke="#8d8376"/>
+<text x="76" y="226" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">3 days</text>
+<text x="64" y="252" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">The window changes the list. It does not</text>
+<text x="64" y="272" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">send a notification by itself.</text>
+<rect x="64" y="300" width="334" height="54" rx="8" fill="#f4efe6" stroke="#8d8376"/>
+<text x="76" y="320" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Reminders stay off. You chose not to</text>
+<text x="76" y="338" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">allow them.</text>
+<text x="64" y="366" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">FreshLoop cannot notify you after you</text>
+<text x="64" y="386" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">close this page.</text>
+<rect x="64" y="414" width="334" height="44" rx="22" fill="#fffcf7" stroke="#1c2822"/>
+<text x="231" y="442" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">Ask again</text>
+<rect x="64" y="470" width="334" height="44" rx="22" fill="#1c2822" stroke="#1c2822"/>
+<text x="231" y="498" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#fffcf7">Turn off reminders</text>
+<rect x="36" y="860" width="390" height="76" fill="#fffcf7" stroke="#1c2822"/>
+<text x="70" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#1c2822">Pantry</text>
+<text x="162" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Cook</text>
+<text x="254" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Shop</text>
+<text x="346" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Plan</text>
+<text x="460" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#1c2822">Annotations</text>
+<text x="460" y="156" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">1. Permission is opt-in and denial does not</text>
+<text x="460" y="178" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">block the pantry.</text>
+<text x="460" y="212" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">2. Turning reminders off is one control.</text>
+<text x="460" y="246" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">3. The prototype does not ask the browser for</text>
+<text x="460" y="268" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">background notifications.</text>
+<text x="460" y="302" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">4. Covers the reminder-permission state and the</text>
+<text x="460" y="324" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">opt-in non-functional requirement.</text>
+<text x="460" y="930" font-family="Segoe UI, sans-serif" font-size="13" fill="#24312a">Responsive: one column under 960px. Side navigation from 960px. Targets at least 44px.</text>
+</svg>

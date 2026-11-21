@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980" role="img">
+<title>WF-10 Shopping list</title>
+<rect width="1040" height="980" fill="#f4efe6"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">WF-10 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="68" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1c2822">Shopping list</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fffcf7" stroke="#1c2822" stroke-width="3"/>
+<text x="64" y="128" font-family="Georgia, serif" font-size="20" fill="#1c2822">FreshLoop</text>
+<text x="64" y="156" font-family="Georgia, serif" font-size="24" fill="#1c2822">Shopping list</text>
+<rect x="64" y="192" width="334" height="36" rx="8" fill="#fffcf7" stroke="#cfc6b8"/>
+<text x="76" y="216" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Lemon · 1 piece · From the four-day plan</text>
+<rect x="64" y="238" width="334" height="36" rx="8" fill="#fffcf7" stroke="#cfc6b8"/>
+<text x="76" y="262" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Garlic · 1 piece · editable amount</text>
+<rect x="64" y="284" width="334" height="40" rx="8" fill="#fffcf7" stroke="#8d8376"/>
+<text x="76" y="310" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">Add an item yourself</text>
+<rect x="64" y="336" width="334" height="44" rx="22" fill="#1c2822" stroke="#1c2822"/>
+<text x="231" y="364" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#fffcf7">Move checked items into the pantry</text>
+<text x="64" y="392" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">Checked items copy no date. A blank amount</text>
+<text x="64" y="412" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">stays blank.</text>
+<rect x="36" y="860" width="390" height="76" fill="#fffcf7" stroke="#1c2822"/>
+<text x="70" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#1c2822">Pantry</text>
+<text x="162" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Cook</text>
+<text x="254" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Shop</text>
+<text x="346" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Plan</text>
+<text x="460" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#1c2822">Annotations</text>
+<text x="460" y="156" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">1. Amounts remain editable after the review.</text>
+<text x="460" y="190" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">2. Moving items into the pantry is explicit.</text>
+<text x="460" y="224" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">3. Empty list points back to Cook rather than</text>
+<text x="460" y="246" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">inventing items.</text>
+<text x="460" y="280" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">4. Covers FR-05 and FR-02 when bought food</text>
+<text x="460" y="302" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">returns to inventory.</text>
+<text x="460" y="930" font-family="Segoe UI, sans-serif" font-size="13" fill="#24312a">Responsive: one column under 960px. Side navigation from 960px. Targets at least 44px.</text>
+</svg>

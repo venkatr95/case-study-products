@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980" role="img">
+<title>WF-06 Use soon</title>
+<rect width="1040" height="980" fill="#f4efe6"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">WF-06 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="68" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1c2822">Use soon</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fffcf7" stroke="#1c2822" stroke-width="3"/>
+<text x="64" y="128" font-family="Georgia, serif" font-size="20" fill="#1c2822">FreshLoop</text>
+<text x="64" y="156" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">Use soon and Date passed come from dates</text>
+<text x="64" y="176" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">you entered. Opened is not an expiry.</text>
+<rect x="64" y="204" width="334" height="54" rx="8" fill="#f4efe6" stroke="#8d8376"/>
+<text x="76" y="224" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">In-app reminders are off. This list</text>
+<text x="76" y="242" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">still works.</text>
+<text x="64" y="270" font-family="Georgia, serif" font-size="24" fill="#1c2822">Date passed</text>
+<rect x="64" y="306" width="334" height="36" rx="8" fill="#eceae4" stroke="#1c2822"/>
+<text x="76" y="330" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Plain yogurt · best-before was yesterday</text>
+<text x="64" y="352" font-family="Georgia, serif" font-size="24" fill="#1c2822">Use soon</text>
+<rect x="64" y="388" width="334" height="36" rx="8" fill="#fffcf7" stroke="#cfc6b8"/>
+<text x="76" y="412" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Spinach · use-by Fri, Oct 23</text>
+<rect x="64" y="434" width="334" height="36" rx="8" fill="#fffcf7" stroke="#cfc6b8"/>
+<text x="76" y="458" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Bread · best-before today</text>
+<text x="64" y="480" font-family="Georgia, serif" font-size="24" fill="#1c2822">Opened</text>
+<rect x="64" y="516" width="334" height="36" rx="8" fill="#fffcf7" stroke="#cfc6b8"/>
+<text x="76" y="540" font-family="Segoe UI, sans-serif" font-size="13" fill="#1c2822">Ginger · opened on, not an expiry</text>
+<rect x="36" y="860" width="390" height="76" fill="#fffcf7" stroke="#1c2822"/>
+<text x="70" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#1c2822">Pantry</text>
+<text x="162" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Cook</text>
+<text x="254" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Shop</text>
+<text x="346" y="904" font-family="Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#1c2822">Plan</text>
+<text x="460" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#1c2822">Annotations</text>
+<text x="460" y="156" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">1. Date passed is first, and the copy refuses a</text>
+<text x="460" y="178" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">safety verdict.</text>
+<text x="460" y="212" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">2. The list works when reminders are off.</text>
+<text x="460" y="246" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">3. No-date items are a separate group and are</text>
+<text x="460" y="268" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">not marked urgent.</text>
+<text x="460" y="302" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">4. Covers FR-03.</text>
+<text x="460" y="930" font-family="Segoe UI, sans-serif" font-size="13" fill="#24312a">Responsive: one column under 960px. Side navigation from 960px. Targets at least 44px.</text>
+</svg>

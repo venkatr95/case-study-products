@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="980" viewBox="0 0 1040 980" role="img">
+<title>WF-01 Onboarding — dates are reminders</title>
+<rect width="1040" height="980" fill="#f4efe6"/>
+<text x="36" y="42" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">WF-01 · grayscale wireframe · 390 × 844</text>
+<text x="36" y="68" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1c2822">Onboarding — dates are reminders</text>
+<rect x="36" y="92" width="390" height="844" rx="28" fill="#fffcf7" stroke="#1c2822" stroke-width="3"/>
+<text x="64" y="128" font-family="Georgia, serif" font-size="20" fill="#1c2822">FreshLoop</text>
+<text x="64" y="156" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#24312a">FreshLoop</text>
+<text x="64" y="184" font-family="Georgia, serif" font-size="24" fill="#1c2822">Know what to cook before</text>
+<text x="64" y="214" font-family="Georgia, serif" font-size="24" fill="#1c2822">food goes to waste</text>
+<text x="64" y="250" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">Dates you enter are reminders. FreshLoop</text>
+<text x="64" y="270" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">does not decide whether food is safe.</text>
+<text x="64" y="298" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">• Add food you already have. A date is</text>
+<text x="64" y="318" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">optional.</text>
+<text x="64" y="346" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">• See which entered dates are soon, then</text>
+<text x="64" y="366" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">open recipes that use them.</text>
+<text x="64" y="394" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">• Shop only for gaps the pantry does not</text>
+<text x="64" y="414" font-family="Segoe UI, sans-serif" font-size="14" fill="#1c2822">cover.</text>
+<rect x="64" y="442" width="334" height="44" rx="22" fill="#1c2822" stroke="#1c2822"/>
+<text x="231" y="470" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#fffcf7">Start my kitchen</text>
+<rect x="64" y="498" width="334" height="44" rx="22" fill="#fffcf7" stroke="#1c2822"/>
+<text x="231" y="526" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">Try the sample kitchen</text>
+<text x="64" y="554" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">The sample kitchen is fictional. Nothing</text>
+<text x="64" y="574" font-family="Segoe UI, sans-serif" font-size="14" fill="#24312a">is uploaded.</text>
+<text x="460" y="120" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" fill="#1c2822">Annotations</text>
+<text x="460" y="156" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">1. The limit is stated before any pantry is</text>
+<text x="460" y="178" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">created.</text>
+<text x="460" y="212" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">2. Sample data is optional and labeled</text>
+<text x="460" y="234" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">fictional.</text>
+<text x="460" y="268" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">3. No account, barcode, or safety verdict is</text>
+<text x="460" y="290" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">required to begin.</text>
+<text x="460" y="324" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">4. Covers the trust half of FR-03 and the</text>
+<text x="460" y="346" font-family="Segoe UI, sans-serif" font-size="15" fill="#1c2822">manual-entry path in FR-01.</text>
+<text x="460" y="930" font-family="Segoe UI, sans-serif" font-size="13" fill="#24312a">Responsive: one column under 960px. Side navigation from 960px. Targets at least 44px.</text>
+</svg>
